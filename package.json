@@ -9,7 +9,7 @@
     "CSS",
     "M2K"
   ],
-  "homepage": "https://github.com/M2KDevelopments/CompactCSS#readme",
+  "homepage": "https://compactcss.online",
   "bugs": {
     "url": "https://github.com/M2KDevelopments/CompactCSS/issues"
   },
@@ -21,6 +21,13 @@
   "author": "M2K Developments",
   "type": "module",
   "main": "dist/compact.min.css",
+  "exports": {
+    ".": "./dist/compact.min.css",
+    "./dist/*": "./dist/*"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node compact.js"

@@ -12,6 +12,20 @@ The quickest way to use Compact CSS is via the CDN — link the pre-built, minif
 <div class="p-4 text-blue-500 rounded-lg">Hello, Compact CSS</div>
 ```
 
+Using a bundler (Webpack, Vite, Next.js, etc.)? Install it from npm and import it directly:
+
+```bash
+npm install compactcss
+```
+
+```jsx
+import 'compactcss';
+
+function App() {
+  return <div className="p-4 text-blue-500 rounded-lg">Hello, Compact CSS</div>;
+}
+```
+
 Prefer to self-host or only ship the utilities you use? Clone or download this repo and link the individual stylesheets you need from the `css/` folder instead:
 
 ```html

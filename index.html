@@ -7,7 +7,7 @@
   <title>CompactCSS — Documentation</title>
 
   <!-- CompactCSS utility stylesheets -->
-    <link rel="stylesheet" href="dist/compact.min.css">
+    <link rel="stylesheet" href="compact.css">
 
   <style>
     /* Demo-page scaffolding only — not part of CompactCSS itself */
@@ -20,16 +20,40 @@
     }
     a { color: inherit; }
 
+    /* --- top navbar --- */
+    .topnav {
+      position: fixed; inset: 0 0 auto 0; height: 56px; z-index: 50;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 1.25rem; background: #ffffff; border-bottom: 1px solid #e2e8f0;
+    }
+    .topnav-left, .topnav-right { display: flex; align-items: center; gap: .6rem; }
+    .topnav-brand { display: flex; align-items: center; gap: .5rem; text-decoration: none; }
+    .topnav-brand .dot { width: 11px; height: 11px; border-radius: 9999px; background: #4f46e5; flex: none; }
+    .topnav-brand strong { font-size: 1rem; letter-spacing: -0.01em; color: #0f172a; }
+    .nav-toggle {
+      display: none; border: 1px solid #e2e8f0; background: #fff; border-radius: .5rem;
+      padding: .4rem .55rem; font-size: 1rem; line-height: 1; cursor: pointer;
+    }
+    .topnav-btn {
+      display: inline-flex; align-items: center; gap: .4rem; padding: .4rem .75rem;
+      border-radius: .5rem; font-size: .8rem; font-weight: 600; text-decoration: none;
+      border: 1px solid #e2e8f0; white-space: nowrap;
+    }
+    .topnav-btn svg { width: 15px; height: 15px; flex: none; }
+    .topnav-btn.btn-github { color: #0f172a; background: #fff; }
+    .topnav-btn.btn-github:hover { background: #f8fafc; }
+    .topnav-btn.btn-coffee { color: #ffffff; background: #ff813f; border-color: #ff813f; }
+    .topnav-btn.btn-coffee:hover { background: #fa7115; border-color: #fa7115; }
+    .topnav-btn.btn-paychangu { color: #0c4a6e; background: skyblue; border-color: skyblue; }
+    .topnav-btn.btn-paychangu:hover { background: #6ec3e6; border-color: #6ec3e6; }
+
     /* --- sidebar --- */
     .sidebar {
-      position: fixed; inset: 0 auto 0 0; width: var(--sidebar-w);
+      position: fixed; inset: 56px auto 0 0; width: var(--sidebar-w);
       overflow-y: auto; background: #f8fafc; border-right: 1px solid #e2e8f0;
       padding: 1.5rem 1.15rem 3rem; z-index: 40;
     }
-    .sidebar-brand { display: flex; align-items: center; gap: .55rem; margin-bottom: .25rem; padding: 0 .6rem; }
-    .sidebar-brand .dot { width: 11px; height: 11px; border-radius: 9999px; background: #4f46e5; flex: none; }
-    .sidebar-brand strong { font-size: 1.05rem; letter-spacing: -0.01em; }
-    .sidebar-sub { font-size: .74rem; color: #94a3b8; margin: 0 0 1.5rem; padding: 0 .6rem; }
+    .sidebar-sub { font-size: .74rem; color: #94a3b8; margin: 1.25rem 0 1.5rem; padding: 0 .6rem; }
     .nav-group { margin-bottom: 1.15rem; }
     .nav-group h5 {
       text-transform: uppercase; letter-spacing: .07em; font-size: .68rem; font-weight: 700;
@@ -43,7 +67,7 @@
     .nav-group a.active { background: #e0e7ff; color: #4338ca; font-weight: 600; border-left-color: #4f46e5; }
 
     /* --- main content --- */
-    .docs-main { margin-left: var(--sidebar-w); padding: 3rem 3.25rem 8rem; max-width: 900px; }
+    .docs-main { margin-left: var(--sidebar-w); margin-top: 56px; padding: 3rem 3.25rem 8rem; max-width: 900px; }
     .doc-section { padding-top: 3rem; scroll-margin-top: 1.25rem; }
     .doc-section:first-of-type { padding-top: 0; }
     .doc-section .eyebrow {
@@ -96,34 +120,46 @@
     }
 
     /* --- mobile --- */
-    .topbar { display: none; }
+    .scrim { display: none; position: fixed; inset: 0; background: rgba(15,23,42,.35); z-index: 39; }
+    .scrim.open { display: block; }
     @media (max-width: 900px) {
+      .nav-toggle { display: inline-flex; align-items: center; justify-content: center; }
+      .topnav-brand strong { display: none; }
       .sidebar { transform: translateX(-100%); transition: transform .18s ease; }
       .sidebar.open { transform: translateX(0); box-shadow: 20px 0 40px rgba(15,23,42,.2); }
-      .docs-main { margin-left: 0; padding: 4.5rem 1.25rem 5rem; }
-      .topbar {
-        display: flex; align-items: center; gap: .75rem; position: fixed; inset: 0 0 auto 0;
-        height: 54px; background: #ffffff; border-bottom: 1px solid #e2e8f0; padding: 0 1rem; z-index: 50;
-      }
-      .topbar button {
-        border: 1px solid #e2e8f0; background: #fff; border-radius: .5rem; padding: .4rem .55rem;
-        font-size: 1rem; line-height: 1; cursor: pointer;
-      }
-      .scrim { display: none; position: fixed; inset: 0; background: rgba(15,23,42,.35); z-index: 39; }
-      .scrim.open { display: block; }
+      .docs-main { margin-left: 0; padding: 2rem 1.25rem 5rem; }
+    }
+    @media (max-width: 560px) {
+      .topnav-btn span { display: none; }
+      .topnav-btn { padding: .45rem; }
     }
   </style>
 </head>
 <body>
 
-  <div class="topbar">
-    <button id="navToggle" aria-label="Toggle navigation">☰</button>
-    <strong>CompactCSS</strong>
-  </div>
+  <header class="topnav">
+    <div class="topnav-left">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+      <a class="topnav-brand" href="#introduction"><span class="dot"></span><strong>CompactCSS</strong></a>
+    </div>
+    <div class="topnav-right">
+      <a class="topnav-btn btn-github" href="https://github.com/M2KDevelopments/CompactCSS" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        <span>GitHub</span>
+      </a>
+      <a class="topnav-btn btn-coffee" href="https://www.buymeacoffee.com/m2kdevelopments" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 3h13a1 1 0 0 1 1 1v2h1.5A2.5 2.5 0 0 1 22 8.5v3a2.5 2.5 0 0 1-2.5 2.5H18c-.28 2.6-1.2 4.27-2.7 5.34-1.53 1.1-3.5 1.16-5.3 1.16H9c-1.8 0-3.77-.06-5.3-1.16C2.2 18.27 1.28 16.6 1 14V4a1 1 0 0 1 1-1h2zm14 5v6.5h.5A1.5 1.5 0 0 0 20 13v-3a1.5 1.5 0 0 0-1.5-1.5H18z"/></svg>
+        <span>Buy me a coffee</span>
+      </a>
+      <a class="topnav-btn btn-paychangu" href="https://give.paychangu.com/dc-RqLWVw" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21s-6.5-4.35-9.3-8.3C.86 10.1 1.2 6.6 3.9 4.9c2.3-1.45 5-.9 6.6 1.1l1.5 1.9 1.5-1.9c1.6-2 4.3-2.55 6.6-1.1 2.7 1.7 3.04 5.2 1.2 7.8C18.5 16.65 12 21 12 21z"/></svg>
+        <span>Support via Paychangu</span>
+      </a>
+    </div>
+  </header>
   <div class="scrim" id="scrim"></div>
 
   <aside class="sidebar" id="sidebar">
-    <div class="sidebar-brand"><span class="dot"></span><strong>CompactCSS</strong></div>
     <p class="sidebar-sub">Utility-first CSS. No build step.</p>
 
     <nav>
@@ -179,6 +215,15 @@
         from the CDN — no download and no build step:
       </p>
       <pre class="snippet"><code>&lt;link rel="stylesheet" href="https://compactcss.online/dist/compact.min.css"&gt;</code></pre>
+      <p class="desc">
+        Using a bundler (Webpack, Vite, Next.js, etc.)? Install it from npm and import it directly:
+      </p>
+      <pre class="snippet"><code>npm install compactcss</code></pre>
+      <pre class="snippet"><code>import 'compactcss';
+
+function App() {
+  return &lt;div className="p-4 text-blue-500 rounded-lg"&gt;Hello, Compact CSS&lt;/div&gt;;
+}</code></pre>
       <p class="desc">
         Prefer to self-host or only ship the utilities you actually use? The library is also
         split into small stylesheets, one per feature — link just the ones you need in
