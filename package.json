@@ -19,12 +19,10 @@
   },
   "license": "MIT",
   "author": "M2K Developments",
-  "type": "commonjs",
-  "main": "app.js",
+  "type": "module",
+  "main": "dist/compact.min.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "lightningcss": "^1.33.0"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node compact.js"
   }
 }
