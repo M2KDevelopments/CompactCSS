@@ -4,7 +4,15 @@ A Tailwind CSS inspired utility library. Get the same useful utility classes you
 
 ## Usage
 
-Clone or download this repo and link the utility stylesheets you need from the `css/` folder directly in your HTML:
+The quickest way to use Compact CSS is via the CDN — link the pre-built, minified stylesheet directly, no download or build step required:
+
+```html
+<link rel="stylesheet" href="https://compactcss.online/dist/compact.min.css">
+
+<div class="p-4 text-blue-500 rounded-lg">Hello, Compact CSS</div>
+```
+
+Prefer to self-host or only ship the utilities you use? Clone or download this repo and link the individual stylesheets you need from the `css/` folder instead:
 
 ```html
 <link rel="stylesheet" href="css/spacing/p.css">
