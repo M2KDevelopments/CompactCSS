@@ -1,0 +1,4 @@
+/*Make the element have sticky positioning*/
+.sticky {
+    position: sticky;
+}
