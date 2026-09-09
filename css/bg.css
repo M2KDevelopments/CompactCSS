@@ -1,5 +1,6 @@
 /* Background color utilities (Tailwind CSS default palette) */
 
+.bg-inherit     { background-color: inherit; }
 .bg-transparent { background-color: transparent; }
 .bg-current     { background-color: currentColor; }
 .bg-black       { background-color: #000000; }
@@ -290,3 +291,55 @@
 .bg-rose-800 { background-color: #9f1239; }
 .bg-rose-900 { background-color: #881337; }
 .bg-rose-950 { background-color: #4c0519; }
+
+/* mauve */
+.bg-mauve-50  { background-color: #fafafa; }
+.bg-mauve-100 { background-color: #f3f1f3; }
+.bg-mauve-200 { background-color: #e7e4e7; }
+.bg-mauve-300 { background-color: #d7d0d7; }
+.bg-mauve-400 { background-color: #a89ea9; }
+.bg-mauve-500 { background-color: #79697b; }
+.bg-mauve-600 { background-color: #594c5b; }
+.bg-mauve-700 { background-color: #463947; }
+.bg-mauve-800 { background-color: #2a212c; }
+.bg-mauve-900 { background-color: #1d161e; }
+.bg-mauve-950 { background-color: #0c090c; }
+
+/* olive */
+.bg-olive-50  { background-color: #fbfbf9; }
+.bg-olive-100 { background-color: #f4f4f0; }
+.bg-olive-200 { background-color: #e8e8e3; }
+.bg-olive-300 { background-color: #d8d8d0; }
+.bg-olive-400 { background-color: #abab9c; }
+.bg-olive-500 { background-color: #7c7c67; }
+.bg-olive-600 { background-color: #5b5b4b; }
+.bg-olive-700 { background-color: #474739; }
+.bg-olive-800 { background-color: #2b2b22; }
+.bg-olive-900 { background-color: #1d1d16; }
+.bg-olive-950 { background-color: #0c0c09; }
+
+/* mist */
+.bg-mist-50  { background-color: #f9fbfb; }
+.bg-mist-100 { background-color: #f1f3f3; }
+.bg-mist-200 { background-color: #e3e7e8; }
+.bg-mist-300 { background-color: #d0d6d8; }
+.bg-mist-400 { background-color: #9ca8ab; }
+.bg-mist-500 { background-color: #67787c; }
+.bg-mist-600 { background-color: #4b585b; }
+.bg-mist-700 { background-color: #394447; }
+.bg-mist-800 { background-color: #22292b; }
+.bg-mist-900 { background-color: #161b1d; }
+.bg-mist-950 { background-color: #090b0c; }
+
+/* taupe */
+.bg-taupe-50  { background-color: #fbfaf9; }
+.bg-taupe-100 { background-color: #f3f1f1; }
+.bg-taupe-200 { background-color: #e8e4e3; }
+.bg-taupe-300 { background-color: #d8d2d0; }
+.bg-taupe-400 { background-color: #aba09c; }
+.bg-taupe-500 { background-color: #7c6d67; }
+.bg-taupe-600 { background-color: #5b4f4b; }
+.bg-taupe-700 { background-color: #473c39; }
+.bg-taupe-800 { background-color: #2b2422; }
+.bg-taupe-900 { background-color: #1d1816; }
+.bg-taupe-950 { background-color: #0c0a09; }
