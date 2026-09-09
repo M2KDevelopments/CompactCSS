@@ -1,0 +1,27 @@
+{
+  "name": "compactcss",
+  "version": "0.0.1",
+  "description": "A tailwindcss inspired project. Reused the same useful tailwind css classes without a complicated setup process.",
+  "keywords": [
+    "Compact",
+    "CSS",
+    "Tailwind",
+    "CSS",
+    "M2K"
+  ],
+  "homepage": "https://github.com/M2KDevelopments/CompactCSS#readme",
+  "bugs": {
+    "url": "https://github.com/M2KDevelopments/CompactCSS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/M2KDevelopments/CompactCSS.git"
+  },
+  "license": "MIT",
+  "author": "M2K Developments",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
