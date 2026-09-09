@@ -1,0 +1,92 @@
+/* Compact CSS — bundled utility imports */
+
+@import url("css/animation.css");
+@import url("css/bg.css");
+@import url("css/border.css");
+@import url("css/cursor.css");
+@import url("css/duration.css");
+@import url("css/font.css");
+@import url("css/gap.css");
+@import url("css/hover.css");
+@import url("css/opacity.css");
+@import url("css/outline.css");
+@import url("css/overflow.css");
+@import url("css/pointing-events.css");
+@import url("css/rounded.css");
+@import url("css/scrollbar.css");
+@import url("css/shadow.css");
+
+/* display */
+@import url("css/display/block.css");
+@import url("css/display/inline.css");
+
+/* filter */
+@import url("css/filter/blur.css");
+@import url("css/filter/brightness.css");
+@import url("css/filter/contrast.css");
+@import url("css/filter/drop-shadow.css");
+@import url("css/filter/grayscale.css");
+@import url("css/filter/hue-rotate.css");
+@import url("css/filter/invert.css");
+@import url("css/filter/saturate.css");
+@import url("css/filter/sepia.css");
+
+/* flex */
+@import url("css/flex/align.css");
+@import url("css/flex/flex.css");
+@import url("css/flex/grid.css");
+@import url("css/flex/item.css");
+@import url("css/flex/justified.css");
+
+/* position */
+@import url("css/position/absolute.css");
+@import url("css/position/bottom.css");
+@import url("css/position/fixed.css");
+@import url("css/position/left.css");
+@import url("css/position/relative.css");
+@import url("css/position/right.css");
+@import url("css/position/static.css");
+@import url("css/position/sticky.css");
+@import url("css/position/top.css");
+@import url("css/position/z.css");
+
+/* sizing */
+@import url("css/sizing/h.css");
+@import url("css/sizing/max.css");
+@import url("css/sizing/min.css");
+@import url("css/sizing/w.css");
+
+/* spacing */
+@import url("css/spacing/m.css");
+@import url("css/spacing/mb.css");
+@import url("css/spacing/ml.css");
+@import url("css/spacing/mr.css");
+@import url("css/spacing/mt.css");
+@import url("css/spacing/mx.css");
+@import url("css/spacing/my.css");
+@import url("css/spacing/p.css");
+@import url("css/spacing/pb.css");
+@import url("css/spacing/pl.css");
+@import url("css/spacing/pr.css");
+@import url("css/spacing/pt.css");
+@import url("css/spacing/px.css");
+@import url("css/spacing/py.css");
+
+/* text */
+@import url("css/text/align.css");
+@import url("css/text/color.css");
+@import url("css/text/decoration.css");
+@import url("css/text/overflow.css");
+@import url("css/text/shadow.css");
+@import url("css/text/size.css");
+@import url("css/text/underline.css");
+@import url("css/text/wrap.css");
+
+/* ui */
+@import url("css/ui/bubble.css");
+@import url("css/ui/glass.css");
+
+/* visibility */
+@import url("css/visibility/hidden.css");
+@import url("css/visibility/invisible.css");
+@import url("css/visibility/visible.css");

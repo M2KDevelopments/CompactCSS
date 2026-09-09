@@ -1,6 +1,6 @@
 {
   "name": "compactcss",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A tailwindcss inspired project. Reused the same useful tailwind css classes without a complicated setup process.",
   "keywords": [
     "Compact",
@@ -23,5 +23,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "lightningcss": "^1.33.0"
   }
 }
