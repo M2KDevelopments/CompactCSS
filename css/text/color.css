@@ -1,0 +1,1807 @@
+/* Text color utilities (Tailwind CSS default palette) */
+
+.text-inherit     { color: inherit; }
+.text-transparent { color: transparent; }
+.text-current     { color: currentColor; }
+.text-black       { color: #000000; }
+.text-white       { color: #ffffff; }
+
+/* slate */
+.text-slate-50  { color: #f8fafc; }
+.text-slate-100 { color: #f1f5f9; }
+.text-slate-200 { color: #e2e8f0; }
+.text-slate-300 { color: #cbd5e1; }
+.text-slate-400 { color: #94a3b8; }
+.text-slate-500 { color: #64748b; }
+.text-slate-600 { color: #475569; }
+.text-slate-700 { color: #334155; }
+.text-slate-800 { color: #1e293b; }
+.text-slate-900 { color: #0f172a; }
+.text-slate-950 { color: #020617; }
+
+/* gray */
+.text-gray-50  { color: #f9fafb; }
+.text-gray-100 { color: #f3f4f6; }
+.text-gray-200 { color: #e5e7eb; }
+.text-gray-300 { color: #d1d5db; }
+.text-gray-400 { color: #9ca3af; }
+.text-gray-500 { color: #6b7280; }
+.text-gray-600 { color: #4b5563; }
+.text-gray-700 { color: #374151; }
+.text-gray-800 { color: #1f2937; }
+.text-gray-900 { color: #111827; }
+.text-gray-950 { color: #030712; }
+
+/* zinc */
+.text-zinc-50  { color: #fafafa; }
+.text-zinc-100 { color: #f4f4f5; }
+.text-zinc-200 { color: #e4e4e7; }
+.text-zinc-300 { color: #d4d4d8; }
+.text-zinc-400 { color: #a1a1aa; }
+.text-zinc-500 { color: #71717a; }
+.text-zinc-600 { color: #52525b; }
+.text-zinc-700 { color: #3f3f46; }
+.text-zinc-800 { color: #27272a; }
+.text-zinc-900 { color: #18181b; }
+.text-zinc-950 { color: #09090b; }
+
+/* neutral */
+.text-neutral-50  { color: #fafafa; }
+.text-neutral-100 { color: #f5f5f5; }
+.text-neutral-200 { color: #e5e5e5; }
+.text-neutral-300 { color: #d4d4d4; }
+.text-neutral-400 { color: #a3a3a3; }
+.text-neutral-500 { color: #737373; }
+.text-neutral-600 { color: #525252; }
+.text-neutral-700 { color: #404040; }
+.text-neutral-800 { color: #262626; }
+.text-neutral-900 { color: #171717; }
+.text-neutral-950 { color: #0a0a0a; }
+
+/* stone */
+.text-stone-50  { color: #fafaf9; }
+.text-stone-100 { color: #f5f5f4; }
+.text-stone-200 { color: #e7e5e4; }
+.text-stone-300 { color: #d6d3d1; }
+.text-stone-400 { color: #a8a29e; }
+.text-stone-500 { color: #78716c; }
+.text-stone-600 { color: #57534e; }
+.text-stone-700 { color: #44403c; }
+.text-stone-800 { color: #292524; }
+.text-stone-900 { color: #1c1917; }
+.text-stone-950 { color: #0c0a09; }
+
+/* red */
+.text-red-50  { color: #fef2f2; }
+.text-red-100 { color: #fee2e2; }
+.text-red-200 { color: #fecaca; }
+.text-red-300 { color: #fca5a5; }
+.text-red-400 { color: #f87171; }
+.text-red-500 { color: #ef4444; }
+.text-red-600 { color: #dc2626; }
+.text-red-700 { color: #b91c1c; }
+.text-red-800 { color: #991b1b; }
+.text-red-900 { color: #7f1d1d; }
+.text-red-950 { color: #450a0a; }
+
+/* orange */
+.text-orange-50  { color: #fff7ed; }
+.text-orange-100 { color: #ffedd5; }
+.text-orange-200 { color: #fed7aa; }
+.text-orange-300 { color: #fdba74; }
+.text-orange-400 { color: #fb923c; }
+.text-orange-500 { color: #f97316; }
+.text-orange-600 { color: #ea580c; }
+.text-orange-700 { color: #c2410c; }
+.text-orange-800 { color: #9a3412; }
+.text-orange-900 { color: #7c2d12; }
+.text-orange-950 { color: #431407; }
+
+/* amber */
+.text-amber-50  { color: #fffbeb; }
+.text-amber-100 { color: #fef3c7; }
+.text-amber-200 { color: #fde68a; }
+.text-amber-300 { color: #fcd34d; }
+.text-amber-400 { color: #fbbf24; }
+.text-amber-500 { color: #f59e0b; }
+.text-amber-600 { color: #d97706; }
+.text-amber-700 { color: #b45309; }
+.text-amber-800 { color: #92400e; }
+.text-amber-900 { color: #78350f; }
+.text-amber-950 { color: #451a03; }
+
+/* yellow */
+.text-yellow-50  { color: #fefce8; }
+.text-yellow-100 { color: #fef9c3; }
+.text-yellow-200 { color: #fef08a; }
+.text-yellow-300 { color: #fde047; }
+.text-yellow-400 { color: #facc15; }
+.text-yellow-500 { color: #eab308; }
+.text-yellow-600 { color: #ca8a04; }
+.text-yellow-700 { color: #a16207; }
+.text-yellow-800 { color: #854d0e; }
+.text-yellow-900 { color: #713f12; }
+.text-yellow-950 { color: #422006; }
+
+/* lime */
+.text-lime-50  { color: #f7fee7; }
+.text-lime-100 { color: #ecfccb; }
+.text-lime-200 { color: #d9f99d; }
+.text-lime-300 { color: #bef264; }
+.text-lime-400 { color: #a3e635; }
+.text-lime-500 { color: #84cc16; }
+.text-lime-600 { color: #65a30d; }
+.text-lime-700 { color: #4d7c0f; }
+.text-lime-800 { color: #3f6212; }
+.text-lime-900 { color: #365314; }
+.text-lime-950 { color: #1a2e05; }
+
+/* green */
+.text-green-50  { color: #f0fdf4; }
+.text-green-100 { color: #dcfce7; }
+.text-green-200 { color: #bbf7d0; }
+.text-green-300 { color: #86efac; }
+.text-green-400 { color: #4ade80; }
+.text-green-500 { color: #22c55e; }
+.text-green-600 { color: #16a34a; }
+.text-green-700 { color: #15803d; }
+.text-green-800 { color: #166534; }
+.text-green-900 { color: #14532d; }
+.text-green-950 { color: #052e16; }
+
+/* emerald */
+.text-emerald-50  { color: #ecfdf5; }
+.text-emerald-100 { color: #d1fae5; }
+.text-emerald-200 { color: #a7f3d0; }
+.text-emerald-300 { color: #6ee7b7; }
+.text-emerald-400 { color: #34d399; }
+.text-emerald-500 { color: #10b981; }
+.text-emerald-600 { color: #059669; }
+.text-emerald-700 { color: #047857; }
+.text-emerald-800 { color: #065f46; }
+.text-emerald-900 { color: #064e3b; }
+.text-emerald-950 { color: #022c22; }
+
+/* teal */
+.text-teal-50  { color: #f0fdfa; }
+.text-teal-100 { color: #ccfbf1; }
+.text-teal-200 { color: #99f6e4; }
+.text-teal-300 { color: #5eead4; }
+.text-teal-400 { color: #2dd4bf; }
+.text-teal-500 { color: #14b8a6; }
+.text-teal-600 { color: #0d9488; }
+.text-teal-700 { color: #0f766e; }
+.text-teal-800 { color: #115e59; }
+.text-teal-900 { color: #134e4a; }
+.text-teal-950 { color: #042f2e; }
+
+/* cyan */
+.text-cyan-50  { color: #ecfeff; }
+.text-cyan-100 { color: #cffafe; }
+.text-cyan-200 { color: #a5f3fc; }
+.text-cyan-300 { color: #67e8f9; }
+.text-cyan-400 { color: #22d3ee; }
+.text-cyan-500 { color: #06b6d4; }
+.text-cyan-600 { color: #0891b2; }
+.text-cyan-700 { color: #0e7490; }
+.text-cyan-800 { color: #155e75; }
+.text-cyan-900 { color: #164e63; }
+.text-cyan-950 { color: #083344; }
+
+/* sky */
+.text-sky-50  { color: #f0f9ff; }
+.text-sky-100 { color: #e0f2fe; }
+.text-sky-200 { color: #bae6fd; }
+.text-sky-300 { color: #7dd3fc; }
+.text-sky-400 { color: #38bdf8; }
+.text-sky-500 { color: #0ea5e9; }
+.text-sky-600 { color: #0284c7; }
+.text-sky-700 { color: #0369a1; }
+.text-sky-800 { color: #075985; }
+.text-sky-900 { color: #0c4a6e; }
+.text-sky-950 { color: #082f49; }
+
+/* blue */
+.text-blue-50  { color: #eff6ff; }
+.text-blue-100 { color: #dbeafe; }
+.text-blue-200 { color: #bfdbfe; }
+.text-blue-300 { color: #93c5fd; }
+.text-blue-400 { color: #60a5fa; }
+.text-blue-500 { color: #3b82f6; }
+.text-blue-600 { color: #2563eb; }
+.text-blue-700 { color: #1d4ed8; }
+.text-blue-800 { color: #1e40af; }
+.text-blue-900 { color: #1e3a8a; }
+.text-blue-950 { color: #172554; }
+
+/* indigo */
+.text-indigo-50  { color: #eef2ff; }
+.text-indigo-100 { color: #e0e7ff; }
+.text-indigo-200 { color: #c7d2fe; }
+.text-indigo-300 { color: #a5b4fc; }
+.text-indigo-400 { color: #818cf8; }
+.text-indigo-500 { color: #6366f1; }
+.text-indigo-600 { color: #4f46e5; }
+.text-indigo-700 { color: #4338ca; }
+.text-indigo-800 { color: #3730a3; }
+.text-indigo-900 { color: #312e81; }
+.text-indigo-950 { color: #1e1b4b; }
+
+/* violet */
+.text-violet-50  { color: #f5f3ff; }
+.text-violet-100 { color: #ede9fe; }
+.text-violet-200 { color: #ddd6fe; }
+.text-violet-300 { color: #c4b5fd; }
+.text-violet-400 { color: #a78bfa; }
+.text-violet-500 { color: #8b5cf6; }
+.text-violet-600 { color: #7c3aed; }
+.text-violet-700 { color: #6d28d9; }
+.text-violet-800 { color: #5b21b6; }
+.text-violet-900 { color: #4c1d95; }
+.text-violet-950 { color: #2e1065; }
+
+/* purple */
+.text-purple-50  { color: #faf5ff; }
+.text-purple-100 { color: #f3e8ff; }
+.text-purple-200 { color: #e9d5ff; }
+.text-purple-300 { color: #d8b4fe; }
+.text-purple-400 { color: #c084fc; }
+.text-purple-500 { color: #a855f7; }
+.text-purple-600 { color: #9333ea; }
+.text-purple-700 { color: #7e22ce; }
+.text-purple-800 { color: #6b21a8; }
+.text-purple-900 { color: #581c87; }
+.text-purple-950 { color: #3b0764; }
+
+/* fuchsia */
+.text-fuchsia-50  { color: #fdf4ff; }
+.text-fuchsia-100 { color: #fae8ff; }
+.text-fuchsia-200 { color: #f5d0fe; }
+.text-fuchsia-300 { color: #f0abfc; }
+.text-fuchsia-400 { color: #e879f9; }
+.text-fuchsia-500 { color: #d946ef; }
+.text-fuchsia-600 { color: #c026d3; }
+.text-fuchsia-700 { color: #a21caf; }
+.text-fuchsia-800 { color: #86198f; }
+.text-fuchsia-900 { color: #701a75; }
+.text-fuchsia-950 { color: #4a044e; }
+
+/* pink */
+.text-pink-50  { color: #fdf2f8; }
+.text-pink-100 { color: #fce7f3; }
+.text-pink-200 { color: #fbcfe8; }
+.text-pink-300 { color: #f9a8d4; }
+.text-pink-400 { color: #f472b6; }
+.text-pink-500 { color: #ec4899; }
+.text-pink-600 { color: #db2777; }
+.text-pink-700 { color: #be185d; }
+.text-pink-800 { color: #9d174d; }
+.text-pink-900 { color: #831843; }
+.text-pink-950 { color: #500724; }
+
+/* rose */
+.text-rose-50  { color: #fff1f2; }
+.text-rose-100 { color: #ffe4e6; }
+.text-rose-200 { color: #fecdd3; }
+.text-rose-300 { color: #fda4af; }
+.text-rose-400 { color: #fb7185; }
+.text-rose-500 { color: #f43f5e; }
+.text-rose-600 { color: #e11d48; }
+.text-rose-700 { color: #be123c; }
+.text-rose-800 { color: #9f1239; }
+.text-rose-900 { color: #881337; }
+.text-rose-950 { color: #4c0519; }
+
+/* mauve */
+.text-mauve-50  { color: #fafafa; }
+.text-mauve-100 { color: #f3f1f3; }
+.text-mauve-200 { color: #e7e4e7; }
+.text-mauve-300 { color: #d7d0d7; }
+.text-mauve-400 { color: #a89ea9; }
+.text-mauve-500 { color: #79697b; }
+.text-mauve-600 { color: #594c5b; }
+.text-mauve-700 { color: #463947; }
+.text-mauve-800 { color: #2a212c; }
+.text-mauve-900 { color: #1d161e; }
+.text-mauve-950 { color: #0c090c; }
+
+/* olive */
+.text-olive-50  { color: #fbfbf9; }
+.text-olive-100 { color: #f4f4f0; }
+.text-olive-200 { color: #e8e8e3; }
+.text-olive-300 { color: #d8d8d0; }
+.text-olive-400 { color: #abab9c; }
+.text-olive-500 { color: #7c7c67; }
+.text-olive-600 { color: #5b5b4b; }
+.text-olive-700 { color: #474739; }
+.text-olive-800 { color: #2b2b22; }
+.text-olive-900 { color: #1d1d16; }
+.text-olive-950 { color: #0c0c09; }
+
+/* mist */
+.text-mist-50  { color: #f9fbfb; }
+.text-mist-100 { color: #f1f3f3; }
+.text-mist-200 { color: #e3e7e8; }
+.text-mist-300 { color: #d0d6d8; }
+.text-mist-400 { color: #9ca8ab; }
+.text-mist-500 { color: #67787c; }
+.text-mist-600 { color: #4b585b; }
+.text-mist-700 { color: #394447; }
+.text-mist-800 { color: #22292b; }
+.text-mist-900 { color: #161b1d; }
+.text-mist-950 { color: #090b0c; }
+
+/* taupe */
+.text-taupe-50  { color: #fbfaf9; }
+.text-taupe-100 { color: #f3f1f1; }
+.text-taupe-200 { color: #e8e4e3; }
+.text-taupe-300 { color: #d8d2d0; }
+.text-taupe-400 { color: #aba09c; }
+.text-taupe-500 { color: #7c6d67; }
+.text-taupe-600 { color: #5b4f4b; }
+.text-taupe-700 { color: #473c39; }
+.text-taupe-800 { color: #2b2422; }
+.text-taupe-900 { color: #1d1816; }
+.text-taupe-950 { color: #0c0a09; }
+
+/* Opacity modifiers: text-{color}-{shade}/{opacity} */
+
+/* opacity: 10% */
+.text-transparent\/10 { color: color-mix(in srgb, transparent 10%, transparent); }
+.text-current\/10     { color: color-mix(in srgb, currentColor 10%, transparent); }
+.text-black\/10       { color: color-mix(in srgb, #000000 10%, transparent); }
+.text-white\/10       { color: color-mix(in srgb, #ffffff 10%, transparent); }
+.text-slate-50\/10    { color: color-mix(in srgb, #f8fafc 10%, transparent); }
+.text-slate-100\/10   { color: color-mix(in srgb, #f1f5f9 10%, transparent); }
+.text-slate-200\/10   { color: color-mix(in srgb, #e2e8f0 10%, transparent); }
+.text-slate-300\/10   { color: color-mix(in srgb, #cbd5e1 10%, transparent); }
+.text-slate-400\/10   { color: color-mix(in srgb, #94a3b8 10%, transparent); }
+.text-slate-500\/10   { color: color-mix(in srgb, #64748b 10%, transparent); }
+.text-slate-600\/10   { color: color-mix(in srgb, #475569 10%, transparent); }
+.text-slate-700\/10   { color: color-mix(in srgb, #334155 10%, transparent); }
+.text-slate-800\/10   { color: color-mix(in srgb, #1e293b 10%, transparent); }
+.text-slate-900\/10   { color: color-mix(in srgb, #0f172a 10%, transparent); }
+.text-slate-950\/10   { color: color-mix(in srgb, #020617 10%, transparent); }
+.text-gray-50\/10     { color: color-mix(in srgb, #f9fafb 10%, transparent); }
+.text-gray-100\/10    { color: color-mix(in srgb, #f3f4f6 10%, transparent); }
+.text-gray-200\/10    { color: color-mix(in srgb, #e5e7eb 10%, transparent); }
+.text-gray-300\/10    { color: color-mix(in srgb, #d1d5db 10%, transparent); }
+.text-gray-400\/10    { color: color-mix(in srgb, #9ca3af 10%, transparent); }
+.text-gray-500\/10    { color: color-mix(in srgb, #6b7280 10%, transparent); }
+.text-gray-600\/10    { color: color-mix(in srgb, #4b5563 10%, transparent); }
+.text-gray-700\/10    { color: color-mix(in srgb, #374151 10%, transparent); }
+.text-gray-800\/10    { color: color-mix(in srgb, #1f2937 10%, transparent); }
+.text-gray-900\/10    { color: color-mix(in srgb, #111827 10%, transparent); }
+.text-gray-950\/10    { color: color-mix(in srgb, #030712 10%, transparent); }
+.text-zinc-50\/10     { color: color-mix(in srgb, #fafafa 10%, transparent); }
+.text-zinc-100\/10    { color: color-mix(in srgb, #f4f4f5 10%, transparent); }
+.text-zinc-200\/10    { color: color-mix(in srgb, #e4e4e7 10%, transparent); }
+.text-zinc-300\/10    { color: color-mix(in srgb, #d4d4d8 10%, transparent); }
+.text-zinc-400\/10    { color: color-mix(in srgb, #a1a1aa 10%, transparent); }
+.text-zinc-500\/10    { color: color-mix(in srgb, #71717a 10%, transparent); }
+.text-zinc-600\/10    { color: color-mix(in srgb, #52525b 10%, transparent); }
+.text-zinc-700\/10    { color: color-mix(in srgb, #3f3f46 10%, transparent); }
+.text-zinc-800\/10    { color: color-mix(in srgb, #27272a 10%, transparent); }
+.text-zinc-900\/10    { color: color-mix(in srgb, #18181b 10%, transparent); }
+.text-zinc-950\/10    { color: color-mix(in srgb, #09090b 10%, transparent); }
+.text-neutral-50\/10  { color: color-mix(in srgb, #fafafa 10%, transparent); }
+.text-neutral-100\/10 { color: color-mix(in srgb, #f5f5f5 10%, transparent); }
+.text-neutral-200\/10 { color: color-mix(in srgb, #e5e5e5 10%, transparent); }
+.text-neutral-300\/10 { color: color-mix(in srgb, #d4d4d4 10%, transparent); }
+.text-neutral-400\/10 { color: color-mix(in srgb, #a3a3a3 10%, transparent); }
+.text-neutral-500\/10 { color: color-mix(in srgb, #737373 10%, transparent); }
+.text-neutral-600\/10 { color: color-mix(in srgb, #525252 10%, transparent); }
+.text-neutral-700\/10 { color: color-mix(in srgb, #404040 10%, transparent); }
+.text-neutral-800\/10 { color: color-mix(in srgb, #262626 10%, transparent); }
+.text-neutral-900\/10 { color: color-mix(in srgb, #171717 10%, transparent); }
+.text-neutral-950\/10 { color: color-mix(in srgb, #0a0a0a 10%, transparent); }
+.text-stone-50\/10    { color: color-mix(in srgb, #fafaf9 10%, transparent); }
+.text-stone-100\/10   { color: color-mix(in srgb, #f5f5f4 10%, transparent); }
+.text-stone-200\/10   { color: color-mix(in srgb, #e7e5e4 10%, transparent); }
+.text-stone-300\/10   { color: color-mix(in srgb, #d6d3d1 10%, transparent); }
+.text-stone-400\/10   { color: color-mix(in srgb, #a8a29e 10%, transparent); }
+.text-stone-500\/10   { color: color-mix(in srgb, #78716c 10%, transparent); }
+.text-stone-600\/10   { color: color-mix(in srgb, #57534e 10%, transparent); }
+.text-stone-700\/10   { color: color-mix(in srgb, #44403c 10%, transparent); }
+.text-stone-800\/10   { color: color-mix(in srgb, #292524 10%, transparent); }
+.text-stone-900\/10   { color: color-mix(in srgb, #1c1917 10%, transparent); }
+.text-stone-950\/10   { color: color-mix(in srgb, #0c0a09 10%, transparent); }
+.text-red-50\/10      { color: color-mix(in srgb, #fef2f2 10%, transparent); }
+.text-red-100\/10     { color: color-mix(in srgb, #fee2e2 10%, transparent); }
+.text-red-200\/10     { color: color-mix(in srgb, #fecaca 10%, transparent); }
+.text-red-300\/10     { color: color-mix(in srgb, #fca5a5 10%, transparent); }
+.text-red-400\/10     { color: color-mix(in srgb, #f87171 10%, transparent); }
+.text-red-500\/10     { color: color-mix(in srgb, #ef4444 10%, transparent); }
+.text-red-600\/10     { color: color-mix(in srgb, #dc2626 10%, transparent); }
+.text-red-700\/10     { color: color-mix(in srgb, #b91c1c 10%, transparent); }
+.text-red-800\/10     { color: color-mix(in srgb, #991b1b 10%, transparent); }
+.text-red-900\/10     { color: color-mix(in srgb, #7f1d1d 10%, transparent); }
+.text-red-950\/10     { color: color-mix(in srgb, #450a0a 10%, transparent); }
+.text-orange-50\/10   { color: color-mix(in srgb, #fff7ed 10%, transparent); }
+.text-orange-100\/10  { color: color-mix(in srgb, #ffedd5 10%, transparent); }
+.text-orange-200\/10  { color: color-mix(in srgb, #fed7aa 10%, transparent); }
+.text-orange-300\/10  { color: color-mix(in srgb, #fdba74 10%, transparent); }
+.text-orange-400\/10  { color: color-mix(in srgb, #fb923c 10%, transparent); }
+.text-orange-500\/10  { color: color-mix(in srgb, #f97316 10%, transparent); }
+.text-orange-600\/10  { color: color-mix(in srgb, #ea580c 10%, transparent); }
+.text-orange-700\/10  { color: color-mix(in srgb, #c2410c 10%, transparent); }
+.text-orange-800\/10  { color: color-mix(in srgb, #9a3412 10%, transparent); }
+.text-orange-900\/10  { color: color-mix(in srgb, #7c2d12 10%, transparent); }
+.text-orange-950\/10  { color: color-mix(in srgb, #431407 10%, transparent); }
+.text-amber-50\/10    { color: color-mix(in srgb, #fffbeb 10%, transparent); }
+.text-amber-100\/10   { color: color-mix(in srgb, #fef3c7 10%, transparent); }
+.text-amber-200\/10   { color: color-mix(in srgb, #fde68a 10%, transparent); }
+.text-amber-300\/10   { color: color-mix(in srgb, #fcd34d 10%, transparent); }
+.text-amber-400\/10   { color: color-mix(in srgb, #fbbf24 10%, transparent); }
+.text-amber-500\/10   { color: color-mix(in srgb, #f59e0b 10%, transparent); }
+.text-amber-600\/10   { color: color-mix(in srgb, #d97706 10%, transparent); }
+.text-amber-700\/10   { color: color-mix(in srgb, #b45309 10%, transparent); }
+.text-amber-800\/10   { color: color-mix(in srgb, #92400e 10%, transparent); }
+.text-amber-900\/10   { color: color-mix(in srgb, #78350f 10%, transparent); }
+.text-amber-950\/10   { color: color-mix(in srgb, #451a03 10%, transparent); }
+.text-yellow-50\/10   { color: color-mix(in srgb, #fefce8 10%, transparent); }
+.text-yellow-100\/10  { color: color-mix(in srgb, #fef9c3 10%, transparent); }
+.text-yellow-200\/10  { color: color-mix(in srgb, #fef08a 10%, transparent); }
+.text-yellow-300\/10  { color: color-mix(in srgb, #fde047 10%, transparent); }
+.text-yellow-400\/10  { color: color-mix(in srgb, #facc15 10%, transparent); }
+.text-yellow-500\/10  { color: color-mix(in srgb, #eab308 10%, transparent); }
+.text-yellow-600\/10  { color: color-mix(in srgb, #ca8a04 10%, transparent); }
+.text-yellow-700\/10  { color: color-mix(in srgb, #a16207 10%, transparent); }
+.text-yellow-800\/10  { color: color-mix(in srgb, #854d0e 10%, transparent); }
+.text-yellow-900\/10  { color: color-mix(in srgb, #713f12 10%, transparent); }
+.text-yellow-950\/10  { color: color-mix(in srgb, #422006 10%, transparent); }
+.text-lime-50\/10     { color: color-mix(in srgb, #f7fee7 10%, transparent); }
+.text-lime-100\/10    { color: color-mix(in srgb, #ecfccb 10%, transparent); }
+.text-lime-200\/10    { color: color-mix(in srgb, #d9f99d 10%, transparent); }
+.text-lime-300\/10    { color: color-mix(in srgb, #bef264 10%, transparent); }
+.text-lime-400\/10    { color: color-mix(in srgb, #a3e635 10%, transparent); }
+.text-lime-500\/10    { color: color-mix(in srgb, #84cc16 10%, transparent); }
+.text-lime-600\/10    { color: color-mix(in srgb, #65a30d 10%, transparent); }
+.text-lime-700\/10    { color: color-mix(in srgb, #4d7c0f 10%, transparent); }
+.text-lime-800\/10    { color: color-mix(in srgb, #3f6212 10%, transparent); }
+.text-lime-900\/10    { color: color-mix(in srgb, #365314 10%, transparent); }
+.text-lime-950\/10    { color: color-mix(in srgb, #1a2e05 10%, transparent); }
+.text-green-50\/10    { color: color-mix(in srgb, #f0fdf4 10%, transparent); }
+.text-green-100\/10   { color: color-mix(in srgb, #dcfce7 10%, transparent); }
+.text-green-200\/10   { color: color-mix(in srgb, #bbf7d0 10%, transparent); }
+.text-green-300\/10   { color: color-mix(in srgb, #86efac 10%, transparent); }
+.text-green-400\/10   { color: color-mix(in srgb, #4ade80 10%, transparent); }
+.text-green-500\/10   { color: color-mix(in srgb, #22c55e 10%, transparent); }
+.text-green-600\/10   { color: color-mix(in srgb, #16a34a 10%, transparent); }
+.text-green-700\/10   { color: color-mix(in srgb, #15803d 10%, transparent); }
+.text-green-800\/10   { color: color-mix(in srgb, #166534 10%, transparent); }
+.text-green-900\/10   { color: color-mix(in srgb, #14532d 10%, transparent); }
+.text-green-950\/10   { color: color-mix(in srgb, #052e16 10%, transparent); }
+.text-emerald-50\/10  { color: color-mix(in srgb, #ecfdf5 10%, transparent); }
+.text-emerald-100\/10 { color: color-mix(in srgb, #d1fae5 10%, transparent); }
+.text-emerald-200\/10 { color: color-mix(in srgb, #a7f3d0 10%, transparent); }
+.text-emerald-300\/10 { color: color-mix(in srgb, #6ee7b7 10%, transparent); }
+.text-emerald-400\/10 { color: color-mix(in srgb, #34d399 10%, transparent); }
+.text-emerald-500\/10 { color: color-mix(in srgb, #10b981 10%, transparent); }
+.text-emerald-600\/10 { color: color-mix(in srgb, #059669 10%, transparent); }
+.text-emerald-700\/10 { color: color-mix(in srgb, #047857 10%, transparent); }
+.text-emerald-800\/10 { color: color-mix(in srgb, #065f46 10%, transparent); }
+.text-emerald-900\/10 { color: color-mix(in srgb, #064e3b 10%, transparent); }
+.text-emerald-950\/10 { color: color-mix(in srgb, #022c22 10%, transparent); }
+.text-teal-50\/10     { color: color-mix(in srgb, #f0fdfa 10%, transparent); }
+.text-teal-100\/10    { color: color-mix(in srgb, #ccfbf1 10%, transparent); }
+.text-teal-200\/10    { color: color-mix(in srgb, #99f6e4 10%, transparent); }
+.text-teal-300\/10    { color: color-mix(in srgb, #5eead4 10%, transparent); }
+.text-teal-400\/10    { color: color-mix(in srgb, #2dd4bf 10%, transparent); }
+.text-teal-500\/10    { color: color-mix(in srgb, #14b8a6 10%, transparent); }
+.text-teal-600\/10    { color: color-mix(in srgb, #0d9488 10%, transparent); }
+.text-teal-700\/10    { color: color-mix(in srgb, #0f766e 10%, transparent); }
+.text-teal-800\/10    { color: color-mix(in srgb, #115e59 10%, transparent); }
+.text-teal-900\/10    { color: color-mix(in srgb, #134e4a 10%, transparent); }
+.text-teal-950\/10    { color: color-mix(in srgb, #042f2e 10%, transparent); }
+.text-cyan-50\/10     { color: color-mix(in srgb, #ecfeff 10%, transparent); }
+.text-cyan-100\/10    { color: color-mix(in srgb, #cffafe 10%, transparent); }
+.text-cyan-200\/10    { color: color-mix(in srgb, #a5f3fc 10%, transparent); }
+.text-cyan-300\/10    { color: color-mix(in srgb, #67e8f9 10%, transparent); }
+.text-cyan-400\/10    { color: color-mix(in srgb, #22d3ee 10%, transparent); }
+.text-cyan-500\/10    { color: color-mix(in srgb, #06b6d4 10%, transparent); }
+.text-cyan-600\/10    { color: color-mix(in srgb, #0891b2 10%, transparent); }
+.text-cyan-700\/10    { color: color-mix(in srgb, #0e7490 10%, transparent); }
+.text-cyan-800\/10    { color: color-mix(in srgb, #155e75 10%, transparent); }
+.text-cyan-900\/10    { color: color-mix(in srgb, #164e63 10%, transparent); }
+.text-cyan-950\/10    { color: color-mix(in srgb, #083344 10%, transparent); }
+.text-sky-50\/10      { color: color-mix(in srgb, #f0f9ff 10%, transparent); }
+.text-sky-100\/10     { color: color-mix(in srgb, #e0f2fe 10%, transparent); }
+.text-sky-200\/10     { color: color-mix(in srgb, #bae6fd 10%, transparent); }
+.text-sky-300\/10     { color: color-mix(in srgb, #7dd3fc 10%, transparent); }
+.text-sky-400\/10     { color: color-mix(in srgb, #38bdf8 10%, transparent); }
+.text-sky-500\/10     { color: color-mix(in srgb, #0ea5e9 10%, transparent); }
+.text-sky-600\/10     { color: color-mix(in srgb, #0284c7 10%, transparent); }
+.text-sky-700\/10     { color: color-mix(in srgb, #0369a1 10%, transparent); }
+.text-sky-800\/10     { color: color-mix(in srgb, #075985 10%, transparent); }
+.text-sky-900\/10     { color: color-mix(in srgb, #0c4a6e 10%, transparent); }
+.text-sky-950\/10     { color: color-mix(in srgb, #082f49 10%, transparent); }
+.text-blue-50\/10     { color: color-mix(in srgb, #eff6ff 10%, transparent); }
+.text-blue-100\/10    { color: color-mix(in srgb, #dbeafe 10%, transparent); }
+.text-blue-200\/10    { color: color-mix(in srgb, #bfdbfe 10%, transparent); }
+.text-blue-300\/10    { color: color-mix(in srgb, #93c5fd 10%, transparent); }
+.text-blue-400\/10    { color: color-mix(in srgb, #60a5fa 10%, transparent); }
+.text-blue-500\/10    { color: color-mix(in srgb, #3b82f6 10%, transparent); }
+.text-blue-600\/10    { color: color-mix(in srgb, #2563eb 10%, transparent); }
+.text-blue-700\/10    { color: color-mix(in srgb, #1d4ed8 10%, transparent); }
+.text-blue-800\/10    { color: color-mix(in srgb, #1e40af 10%, transparent); }
+.text-blue-900\/10    { color: color-mix(in srgb, #1e3a8a 10%, transparent); }
+.text-blue-950\/10    { color: color-mix(in srgb, #172554 10%, transparent); }
+.text-indigo-50\/10   { color: color-mix(in srgb, #eef2ff 10%, transparent); }
+.text-indigo-100\/10  { color: color-mix(in srgb, #e0e7ff 10%, transparent); }
+.text-indigo-200\/10  { color: color-mix(in srgb, #c7d2fe 10%, transparent); }
+.text-indigo-300\/10  { color: color-mix(in srgb, #a5b4fc 10%, transparent); }
+.text-indigo-400\/10  { color: color-mix(in srgb, #818cf8 10%, transparent); }
+.text-indigo-500\/10  { color: color-mix(in srgb, #6366f1 10%, transparent); }
+.text-indigo-600\/10  { color: color-mix(in srgb, #4f46e5 10%, transparent); }
+.text-indigo-700\/10  { color: color-mix(in srgb, #4338ca 10%, transparent); }
+.text-indigo-800\/10  { color: color-mix(in srgb, #3730a3 10%, transparent); }
+.text-indigo-900\/10  { color: color-mix(in srgb, #312e81 10%, transparent); }
+.text-indigo-950\/10  { color: color-mix(in srgb, #1e1b4b 10%, transparent); }
+.text-violet-50\/10   { color: color-mix(in srgb, #f5f3ff 10%, transparent); }
+.text-violet-100\/10  { color: color-mix(in srgb, #ede9fe 10%, transparent); }
+.text-violet-200\/10  { color: color-mix(in srgb, #ddd6fe 10%, transparent); }
+.text-violet-300\/10  { color: color-mix(in srgb, #c4b5fd 10%, transparent); }
+.text-violet-400\/10  { color: color-mix(in srgb, #a78bfa 10%, transparent); }
+.text-violet-500\/10  { color: color-mix(in srgb, #8b5cf6 10%, transparent); }
+.text-violet-600\/10  { color: color-mix(in srgb, #7c3aed 10%, transparent); }
+.text-violet-700\/10  { color: color-mix(in srgb, #6d28d9 10%, transparent); }
+.text-violet-800\/10  { color: color-mix(in srgb, #5b21b6 10%, transparent); }
+.text-violet-900\/10  { color: color-mix(in srgb, #4c1d95 10%, transparent); }
+.text-violet-950\/10  { color: color-mix(in srgb, #2e1065 10%, transparent); }
+.text-purple-50\/10   { color: color-mix(in srgb, #faf5ff 10%, transparent); }
+.text-purple-100\/10  { color: color-mix(in srgb, #f3e8ff 10%, transparent); }
+.text-purple-200\/10  { color: color-mix(in srgb, #e9d5ff 10%, transparent); }
+.text-purple-300\/10  { color: color-mix(in srgb, #d8b4fe 10%, transparent); }
+.text-purple-400\/10  { color: color-mix(in srgb, #c084fc 10%, transparent); }
+.text-purple-500\/10  { color: color-mix(in srgb, #a855f7 10%, transparent); }
+.text-purple-600\/10  { color: color-mix(in srgb, #9333ea 10%, transparent); }
+.text-purple-700\/10  { color: color-mix(in srgb, #7e22ce 10%, transparent); }
+.text-purple-800\/10  { color: color-mix(in srgb, #6b21a8 10%, transparent); }
+.text-purple-900\/10  { color: color-mix(in srgb, #581c87 10%, transparent); }
+.text-purple-950\/10  { color: color-mix(in srgb, #3b0764 10%, transparent); }
+.text-fuchsia-50\/10  { color: color-mix(in srgb, #fdf4ff 10%, transparent); }
+.text-fuchsia-100\/10 { color: color-mix(in srgb, #fae8ff 10%, transparent); }
+.text-fuchsia-200\/10 { color: color-mix(in srgb, #f5d0fe 10%, transparent); }
+.text-fuchsia-300\/10 { color: color-mix(in srgb, #f0abfc 10%, transparent); }
+.text-fuchsia-400\/10 { color: color-mix(in srgb, #e879f9 10%, transparent); }
+.text-fuchsia-500\/10 { color: color-mix(in srgb, #d946ef 10%, transparent); }
+.text-fuchsia-600\/10 { color: color-mix(in srgb, #c026d3 10%, transparent); }
+.text-fuchsia-700\/10 { color: color-mix(in srgb, #a21caf 10%, transparent); }
+.text-fuchsia-800\/10 { color: color-mix(in srgb, #86198f 10%, transparent); }
+.text-fuchsia-900\/10 { color: color-mix(in srgb, #701a75 10%, transparent); }
+.text-fuchsia-950\/10 { color: color-mix(in srgb, #4a044e 10%, transparent); }
+.text-pink-50\/10     { color: color-mix(in srgb, #fdf2f8 10%, transparent); }
+.text-pink-100\/10    { color: color-mix(in srgb, #fce7f3 10%, transparent); }
+.text-pink-200\/10    { color: color-mix(in srgb, #fbcfe8 10%, transparent); }
+.text-pink-300\/10    { color: color-mix(in srgb, #f9a8d4 10%, transparent); }
+.text-pink-400\/10    { color: color-mix(in srgb, #f472b6 10%, transparent); }
+.text-pink-500\/10    { color: color-mix(in srgb, #ec4899 10%, transparent); }
+.text-pink-600\/10    { color: color-mix(in srgb, #db2777 10%, transparent); }
+.text-pink-700\/10    { color: color-mix(in srgb, #be185d 10%, transparent); }
+.text-pink-800\/10    { color: color-mix(in srgb, #9d174d 10%, transparent); }
+.text-pink-900\/10    { color: color-mix(in srgb, #831843 10%, transparent); }
+.text-pink-950\/10    { color: color-mix(in srgb, #500724 10%, transparent); }
+.text-rose-50\/10     { color: color-mix(in srgb, #fff1f2 10%, transparent); }
+.text-rose-100\/10    { color: color-mix(in srgb, #ffe4e6 10%, transparent); }
+.text-rose-200\/10    { color: color-mix(in srgb, #fecdd3 10%, transparent); }
+.text-rose-300\/10    { color: color-mix(in srgb, #fda4af 10%, transparent); }
+.text-rose-400\/10    { color: color-mix(in srgb, #fb7185 10%, transparent); }
+.text-rose-500\/10    { color: color-mix(in srgb, #f43f5e 10%, transparent); }
+.text-rose-600\/10    { color: color-mix(in srgb, #e11d48 10%, transparent); }
+.text-rose-700\/10    { color: color-mix(in srgb, #be123c 10%, transparent); }
+.text-rose-800\/10    { color: color-mix(in srgb, #9f1239 10%, transparent); }
+.text-rose-900\/10    { color: color-mix(in srgb, #881337 10%, transparent); }
+.text-rose-950\/10    { color: color-mix(in srgb, #4c0519 10%, transparent); }
+.text-mauve-50\/10    { color: color-mix(in srgb, #fafafa 10%, transparent); }
+.text-mauve-100\/10   { color: color-mix(in srgb, #f3f1f3 10%, transparent); }
+.text-mauve-200\/10   { color: color-mix(in srgb, #e7e4e7 10%, transparent); }
+.text-mauve-300\/10   { color: color-mix(in srgb, #d7d0d7 10%, transparent); }
+.text-mauve-400\/10   { color: color-mix(in srgb, #a89ea9 10%, transparent); }
+.text-mauve-500\/10   { color: color-mix(in srgb, #79697b 10%, transparent); }
+.text-mauve-600\/10   { color: color-mix(in srgb, #594c5b 10%, transparent); }
+.text-mauve-700\/10   { color: color-mix(in srgb, #463947 10%, transparent); }
+.text-mauve-800\/10   { color: color-mix(in srgb, #2a212c 10%, transparent); }
+.text-mauve-900\/10   { color: color-mix(in srgb, #1d161e 10%, transparent); }
+.text-mauve-950\/10   { color: color-mix(in srgb, #0c090c 10%, transparent); }
+.text-olive-50\/10    { color: color-mix(in srgb, #fbfbf9 10%, transparent); }
+.text-olive-100\/10   { color: color-mix(in srgb, #f4f4f0 10%, transparent); }
+.text-olive-200\/10   { color: color-mix(in srgb, #e8e8e3 10%, transparent); }
+.text-olive-300\/10   { color: color-mix(in srgb, #d8d8d0 10%, transparent); }
+.text-olive-400\/10   { color: color-mix(in srgb, #abab9c 10%, transparent); }
+.text-olive-500\/10   { color: color-mix(in srgb, #7c7c67 10%, transparent); }
+.text-olive-600\/10   { color: color-mix(in srgb, #5b5b4b 10%, transparent); }
+.text-olive-700\/10   { color: color-mix(in srgb, #474739 10%, transparent); }
+.text-olive-800\/10   { color: color-mix(in srgb, #2b2b22 10%, transparent); }
+.text-olive-900\/10   { color: color-mix(in srgb, #1d1d16 10%, transparent); }
+.text-olive-950\/10   { color: color-mix(in srgb, #0c0c09 10%, transparent); }
+.text-mist-50\/10     { color: color-mix(in srgb, #f9fbfb 10%, transparent); }
+.text-mist-100\/10    { color: color-mix(in srgb, #f1f3f3 10%, transparent); }
+.text-mist-200\/10    { color: color-mix(in srgb, #e3e7e8 10%, transparent); }
+.text-mist-300\/10    { color: color-mix(in srgb, #d0d6d8 10%, transparent); }
+.text-mist-400\/10    { color: color-mix(in srgb, #9ca8ab 10%, transparent); }
+.text-mist-500\/10    { color: color-mix(in srgb, #67787c 10%, transparent); }
+.text-mist-600\/10    { color: color-mix(in srgb, #4b585b 10%, transparent); }
+.text-mist-700\/10    { color: color-mix(in srgb, #394447 10%, transparent); }
+.text-mist-800\/10    { color: color-mix(in srgb, #22292b 10%, transparent); }
+.text-mist-900\/10    { color: color-mix(in srgb, #161b1d 10%, transparent); }
+.text-mist-950\/10    { color: color-mix(in srgb, #090b0c 10%, transparent); }
+.text-taupe-50\/10    { color: color-mix(in srgb, #fbfaf9 10%, transparent); }
+.text-taupe-100\/10   { color: color-mix(in srgb, #f3f1f1 10%, transparent); }
+.text-taupe-200\/10   { color: color-mix(in srgb, #e8e4e3 10%, transparent); }
+.text-taupe-300\/10   { color: color-mix(in srgb, #d8d2d0 10%, transparent); }
+.text-taupe-400\/10   { color: color-mix(in srgb, #aba09c 10%, transparent); }
+.text-taupe-500\/10   { color: color-mix(in srgb, #7c6d67 10%, transparent); }
+.text-taupe-600\/10   { color: color-mix(in srgb, #5b4f4b 10%, transparent); }
+.text-taupe-700\/10   { color: color-mix(in srgb, #473c39 10%, transparent); }
+.text-taupe-800\/10   { color: color-mix(in srgb, #2b2422 10%, transparent); }
+.text-taupe-900\/10   { color: color-mix(in srgb, #1d1816 10%, transparent); }
+.text-taupe-950\/10   { color: color-mix(in srgb, #0c0a09 10%, transparent); }
+
+/* opacity: 25% */
+.text-transparent\/25 { color: color-mix(in srgb, transparent 25%, transparent); }
+.text-current\/25     { color: color-mix(in srgb, currentColor 25%, transparent); }
+.text-black\/25       { color: color-mix(in srgb, #000000 25%, transparent); }
+.text-white\/25       { color: color-mix(in srgb, #ffffff 25%, transparent); }
+.text-slate-50\/25    { color: color-mix(in srgb, #f8fafc 25%, transparent); }
+.text-slate-100\/25   { color: color-mix(in srgb, #f1f5f9 25%, transparent); }
+.text-slate-200\/25   { color: color-mix(in srgb, #e2e8f0 25%, transparent); }
+.text-slate-300\/25   { color: color-mix(in srgb, #cbd5e1 25%, transparent); }
+.text-slate-400\/25   { color: color-mix(in srgb, #94a3b8 25%, transparent); }
+.text-slate-500\/25   { color: color-mix(in srgb, #64748b 25%, transparent); }
+.text-slate-600\/25   { color: color-mix(in srgb, #475569 25%, transparent); }
+.text-slate-700\/25   { color: color-mix(in srgb, #334155 25%, transparent); }
+.text-slate-800\/25   { color: color-mix(in srgb, #1e293b 25%, transparent); }
+.text-slate-900\/25   { color: color-mix(in srgb, #0f172a 25%, transparent); }
+.text-slate-950\/25   { color: color-mix(in srgb, #020617 25%, transparent); }
+.text-gray-50\/25     { color: color-mix(in srgb, #f9fafb 25%, transparent); }
+.text-gray-100\/25    { color: color-mix(in srgb, #f3f4f6 25%, transparent); }
+.text-gray-200\/25    { color: color-mix(in srgb, #e5e7eb 25%, transparent); }
+.text-gray-300\/25    { color: color-mix(in srgb, #d1d5db 25%, transparent); }
+.text-gray-400\/25    { color: color-mix(in srgb, #9ca3af 25%, transparent); }
+.text-gray-500\/25    { color: color-mix(in srgb, #6b7280 25%, transparent); }
+.text-gray-600\/25    { color: color-mix(in srgb, #4b5563 25%, transparent); }
+.text-gray-700\/25    { color: color-mix(in srgb, #374151 25%, transparent); }
+.text-gray-800\/25    { color: color-mix(in srgb, #1f2937 25%, transparent); }
+.text-gray-900\/25    { color: color-mix(in srgb, #111827 25%, transparent); }
+.text-gray-950\/25    { color: color-mix(in srgb, #030712 25%, transparent); }
+.text-zinc-50\/25     { color: color-mix(in srgb, #fafafa 25%, transparent); }
+.text-zinc-100\/25    { color: color-mix(in srgb, #f4f4f5 25%, transparent); }
+.text-zinc-200\/25    { color: color-mix(in srgb, #e4e4e7 25%, transparent); }
+.text-zinc-300\/25    { color: color-mix(in srgb, #d4d4d8 25%, transparent); }
+.text-zinc-400\/25    { color: color-mix(in srgb, #a1a1aa 25%, transparent); }
+.text-zinc-500\/25    { color: color-mix(in srgb, #71717a 25%, transparent); }
+.text-zinc-600\/25    { color: color-mix(in srgb, #52525b 25%, transparent); }
+.text-zinc-700\/25    { color: color-mix(in srgb, #3f3f46 25%, transparent); }
+.text-zinc-800\/25    { color: color-mix(in srgb, #27272a 25%, transparent); }
+.text-zinc-900\/25    { color: color-mix(in srgb, #18181b 25%, transparent); }
+.text-zinc-950\/25    { color: color-mix(in srgb, #09090b 25%, transparent); }
+.text-neutral-50\/25  { color: color-mix(in srgb, #fafafa 25%, transparent); }
+.text-neutral-100\/25 { color: color-mix(in srgb, #f5f5f5 25%, transparent); }
+.text-neutral-200\/25 { color: color-mix(in srgb, #e5e5e5 25%, transparent); }
+.text-neutral-300\/25 { color: color-mix(in srgb, #d4d4d4 25%, transparent); }
+.text-neutral-400\/25 { color: color-mix(in srgb, #a3a3a3 25%, transparent); }
+.text-neutral-500\/25 { color: color-mix(in srgb, #737373 25%, transparent); }
+.text-neutral-600\/25 { color: color-mix(in srgb, #525252 25%, transparent); }
+.text-neutral-700\/25 { color: color-mix(in srgb, #404040 25%, transparent); }
+.text-neutral-800\/25 { color: color-mix(in srgb, #262626 25%, transparent); }
+.text-neutral-900\/25 { color: color-mix(in srgb, #171717 25%, transparent); }
+.text-neutral-950\/25 { color: color-mix(in srgb, #0a0a0a 25%, transparent); }
+.text-stone-50\/25    { color: color-mix(in srgb, #fafaf9 25%, transparent); }
+.text-stone-100\/25   { color: color-mix(in srgb, #f5f5f4 25%, transparent); }
+.text-stone-200\/25   { color: color-mix(in srgb, #e7e5e4 25%, transparent); }
+.text-stone-300\/25   { color: color-mix(in srgb, #d6d3d1 25%, transparent); }
+.text-stone-400\/25   { color: color-mix(in srgb, #a8a29e 25%, transparent); }
+.text-stone-500\/25   { color: color-mix(in srgb, #78716c 25%, transparent); }
+.text-stone-600\/25   { color: color-mix(in srgb, #57534e 25%, transparent); }
+.text-stone-700\/25   { color: color-mix(in srgb, #44403c 25%, transparent); }
+.text-stone-800\/25   { color: color-mix(in srgb, #292524 25%, transparent); }
+.text-stone-900\/25   { color: color-mix(in srgb, #1c1917 25%, transparent); }
+.text-stone-950\/25   { color: color-mix(in srgb, #0c0a09 25%, transparent); }
+.text-red-50\/25      { color: color-mix(in srgb, #fef2f2 25%, transparent); }
+.text-red-100\/25     { color: color-mix(in srgb, #fee2e2 25%, transparent); }
+.text-red-200\/25     { color: color-mix(in srgb, #fecaca 25%, transparent); }
+.text-red-300\/25     { color: color-mix(in srgb, #fca5a5 25%, transparent); }
+.text-red-400\/25     { color: color-mix(in srgb, #f87171 25%, transparent); }
+.text-red-500\/25     { color: color-mix(in srgb, #ef4444 25%, transparent); }
+.text-red-600\/25     { color: color-mix(in srgb, #dc2626 25%, transparent); }
+.text-red-700\/25     { color: color-mix(in srgb, #b91c1c 25%, transparent); }
+.text-red-800\/25     { color: color-mix(in srgb, #991b1b 25%, transparent); }
+.text-red-900\/25     { color: color-mix(in srgb, #7f1d1d 25%, transparent); }
+.text-red-950\/25     { color: color-mix(in srgb, #450a0a 25%, transparent); }
+.text-orange-50\/25   { color: color-mix(in srgb, #fff7ed 25%, transparent); }
+.text-orange-100\/25  { color: color-mix(in srgb, #ffedd5 25%, transparent); }
+.text-orange-200\/25  { color: color-mix(in srgb, #fed7aa 25%, transparent); }
+.text-orange-300\/25  { color: color-mix(in srgb, #fdba74 25%, transparent); }
+.text-orange-400\/25  { color: color-mix(in srgb, #fb923c 25%, transparent); }
+.text-orange-500\/25  { color: color-mix(in srgb, #f97316 25%, transparent); }
+.text-orange-600\/25  { color: color-mix(in srgb, #ea580c 25%, transparent); }
+.text-orange-700\/25  { color: color-mix(in srgb, #c2410c 25%, transparent); }
+.text-orange-800\/25  { color: color-mix(in srgb, #9a3412 25%, transparent); }
+.text-orange-900\/25  { color: color-mix(in srgb, #7c2d12 25%, transparent); }
+.text-orange-950\/25  { color: color-mix(in srgb, #431407 25%, transparent); }
+.text-amber-50\/25    { color: color-mix(in srgb, #fffbeb 25%, transparent); }
+.text-amber-100\/25   { color: color-mix(in srgb, #fef3c7 25%, transparent); }
+.text-amber-200\/25   { color: color-mix(in srgb, #fde68a 25%, transparent); }
+.text-amber-300\/25   { color: color-mix(in srgb, #fcd34d 25%, transparent); }
+.text-amber-400\/25   { color: color-mix(in srgb, #fbbf24 25%, transparent); }
+.text-amber-500\/25   { color: color-mix(in srgb, #f59e0b 25%, transparent); }
+.text-amber-600\/25   { color: color-mix(in srgb, #d97706 25%, transparent); }
+.text-amber-700\/25   { color: color-mix(in srgb, #b45309 25%, transparent); }
+.text-amber-800\/25   { color: color-mix(in srgb, #92400e 25%, transparent); }
+.text-amber-900\/25   { color: color-mix(in srgb, #78350f 25%, transparent); }
+.text-amber-950\/25   { color: color-mix(in srgb, #451a03 25%, transparent); }
+.text-yellow-50\/25   { color: color-mix(in srgb, #fefce8 25%, transparent); }
+.text-yellow-100\/25  { color: color-mix(in srgb, #fef9c3 25%, transparent); }
+.text-yellow-200\/25  { color: color-mix(in srgb, #fef08a 25%, transparent); }
+.text-yellow-300\/25  { color: color-mix(in srgb, #fde047 25%, transparent); }
+.text-yellow-400\/25  { color: color-mix(in srgb, #facc15 25%, transparent); }
+.text-yellow-500\/25  { color: color-mix(in srgb, #eab308 25%, transparent); }
+.text-yellow-600\/25  { color: color-mix(in srgb, #ca8a04 25%, transparent); }
+.text-yellow-700\/25  { color: color-mix(in srgb, #a16207 25%, transparent); }
+.text-yellow-800\/25  { color: color-mix(in srgb, #854d0e 25%, transparent); }
+.text-yellow-900\/25  { color: color-mix(in srgb, #713f12 25%, transparent); }
+.text-yellow-950\/25  { color: color-mix(in srgb, #422006 25%, transparent); }
+.text-lime-50\/25     { color: color-mix(in srgb, #f7fee7 25%, transparent); }
+.text-lime-100\/25    { color: color-mix(in srgb, #ecfccb 25%, transparent); }
+.text-lime-200\/25    { color: color-mix(in srgb, #d9f99d 25%, transparent); }
+.text-lime-300\/25    { color: color-mix(in srgb, #bef264 25%, transparent); }
+.text-lime-400\/25    { color: color-mix(in srgb, #a3e635 25%, transparent); }
+.text-lime-500\/25    { color: color-mix(in srgb, #84cc16 25%, transparent); }
+.text-lime-600\/25    { color: color-mix(in srgb, #65a30d 25%, transparent); }
+.text-lime-700\/25    { color: color-mix(in srgb, #4d7c0f 25%, transparent); }
+.text-lime-800\/25    { color: color-mix(in srgb, #3f6212 25%, transparent); }
+.text-lime-900\/25    { color: color-mix(in srgb, #365314 25%, transparent); }
+.text-lime-950\/25    { color: color-mix(in srgb, #1a2e05 25%, transparent); }
+.text-green-50\/25    { color: color-mix(in srgb, #f0fdf4 25%, transparent); }
+.text-green-100\/25   { color: color-mix(in srgb, #dcfce7 25%, transparent); }
+.text-green-200\/25   { color: color-mix(in srgb, #bbf7d0 25%, transparent); }
+.text-green-300\/25   { color: color-mix(in srgb, #86efac 25%, transparent); }
+.text-green-400\/25   { color: color-mix(in srgb, #4ade80 25%, transparent); }
+.text-green-500\/25   { color: color-mix(in srgb, #22c55e 25%, transparent); }
+.text-green-600\/25   { color: color-mix(in srgb, #16a34a 25%, transparent); }
+.text-green-700\/25   { color: color-mix(in srgb, #15803d 25%, transparent); }
+.text-green-800\/25   { color: color-mix(in srgb, #166534 25%, transparent); }
+.text-green-900\/25   { color: color-mix(in srgb, #14532d 25%, transparent); }
+.text-green-950\/25   { color: color-mix(in srgb, #052e16 25%, transparent); }
+.text-emerald-50\/25  { color: color-mix(in srgb, #ecfdf5 25%, transparent); }
+.text-emerald-100\/25 { color: color-mix(in srgb, #d1fae5 25%, transparent); }
+.text-emerald-200\/25 { color: color-mix(in srgb, #a7f3d0 25%, transparent); }
+.text-emerald-300\/25 { color: color-mix(in srgb, #6ee7b7 25%, transparent); }
+.text-emerald-400\/25 { color: color-mix(in srgb, #34d399 25%, transparent); }
+.text-emerald-500\/25 { color: color-mix(in srgb, #10b981 25%, transparent); }
+.text-emerald-600\/25 { color: color-mix(in srgb, #059669 25%, transparent); }
+.text-emerald-700\/25 { color: color-mix(in srgb, #047857 25%, transparent); }
+.text-emerald-800\/25 { color: color-mix(in srgb, #065f46 25%, transparent); }
+.text-emerald-900\/25 { color: color-mix(in srgb, #064e3b 25%, transparent); }
+.text-emerald-950\/25 { color: color-mix(in srgb, #022c22 25%, transparent); }
+.text-teal-50\/25     { color: color-mix(in srgb, #f0fdfa 25%, transparent); }
+.text-teal-100\/25    { color: color-mix(in srgb, #ccfbf1 25%, transparent); }
+.text-teal-200\/25    { color: color-mix(in srgb, #99f6e4 25%, transparent); }
+.text-teal-300\/25    { color: color-mix(in srgb, #5eead4 25%, transparent); }
+.text-teal-400\/25    { color: color-mix(in srgb, #2dd4bf 25%, transparent); }
+.text-teal-500\/25    { color: color-mix(in srgb, #14b8a6 25%, transparent); }
+.text-teal-600\/25    { color: color-mix(in srgb, #0d9488 25%, transparent); }
+.text-teal-700\/25    { color: color-mix(in srgb, #0f766e 25%, transparent); }
+.text-teal-800\/25    { color: color-mix(in srgb, #115e59 25%, transparent); }
+.text-teal-900\/25    { color: color-mix(in srgb, #134e4a 25%, transparent); }
+.text-teal-950\/25    { color: color-mix(in srgb, #042f2e 25%, transparent); }
+.text-cyan-50\/25     { color: color-mix(in srgb, #ecfeff 25%, transparent); }
+.text-cyan-100\/25    { color: color-mix(in srgb, #cffafe 25%, transparent); }
+.text-cyan-200\/25    { color: color-mix(in srgb, #a5f3fc 25%, transparent); }
+.text-cyan-300\/25    { color: color-mix(in srgb, #67e8f9 25%, transparent); }
+.text-cyan-400\/25    { color: color-mix(in srgb, #22d3ee 25%, transparent); }
+.text-cyan-500\/25    { color: color-mix(in srgb, #06b6d4 25%, transparent); }
+.text-cyan-600\/25    { color: color-mix(in srgb, #0891b2 25%, transparent); }
+.text-cyan-700\/25    { color: color-mix(in srgb, #0e7490 25%, transparent); }
+.text-cyan-800\/25    { color: color-mix(in srgb, #155e75 25%, transparent); }
+.text-cyan-900\/25    { color: color-mix(in srgb, #164e63 25%, transparent); }
+.text-cyan-950\/25    { color: color-mix(in srgb, #083344 25%, transparent); }
+.text-sky-50\/25      { color: color-mix(in srgb, #f0f9ff 25%, transparent); }
+.text-sky-100\/25     { color: color-mix(in srgb, #e0f2fe 25%, transparent); }
+.text-sky-200\/25     { color: color-mix(in srgb, #bae6fd 25%, transparent); }
+.text-sky-300\/25     { color: color-mix(in srgb, #7dd3fc 25%, transparent); }
+.text-sky-400\/25     { color: color-mix(in srgb, #38bdf8 25%, transparent); }
+.text-sky-500\/25     { color: color-mix(in srgb, #0ea5e9 25%, transparent); }
+.text-sky-600\/25     { color: color-mix(in srgb, #0284c7 25%, transparent); }
+.text-sky-700\/25     { color: color-mix(in srgb, #0369a1 25%, transparent); }
+.text-sky-800\/25     { color: color-mix(in srgb, #075985 25%, transparent); }
+.text-sky-900\/25     { color: color-mix(in srgb, #0c4a6e 25%, transparent); }
+.text-sky-950\/25     { color: color-mix(in srgb, #082f49 25%, transparent); }
+.text-blue-50\/25     { color: color-mix(in srgb, #eff6ff 25%, transparent); }
+.text-blue-100\/25    { color: color-mix(in srgb, #dbeafe 25%, transparent); }
+.text-blue-200\/25    { color: color-mix(in srgb, #bfdbfe 25%, transparent); }
+.text-blue-300\/25    { color: color-mix(in srgb, #93c5fd 25%, transparent); }
+.text-blue-400\/25    { color: color-mix(in srgb, #60a5fa 25%, transparent); }
+.text-blue-500\/25    { color: color-mix(in srgb, #3b82f6 25%, transparent); }
+.text-blue-600\/25    { color: color-mix(in srgb, #2563eb 25%, transparent); }
+.text-blue-700\/25    { color: color-mix(in srgb, #1d4ed8 25%, transparent); }
+.text-blue-800\/25    { color: color-mix(in srgb, #1e40af 25%, transparent); }
+.text-blue-900\/25    { color: color-mix(in srgb, #1e3a8a 25%, transparent); }
+.text-blue-950\/25    { color: color-mix(in srgb, #172554 25%, transparent); }
+.text-indigo-50\/25   { color: color-mix(in srgb, #eef2ff 25%, transparent); }
+.text-indigo-100\/25  { color: color-mix(in srgb, #e0e7ff 25%, transparent); }
+.text-indigo-200\/25  { color: color-mix(in srgb, #c7d2fe 25%, transparent); }
+.text-indigo-300\/25  { color: color-mix(in srgb, #a5b4fc 25%, transparent); }
+.text-indigo-400\/25  { color: color-mix(in srgb, #818cf8 25%, transparent); }
+.text-indigo-500\/25  { color: color-mix(in srgb, #6366f1 25%, transparent); }
+.text-indigo-600\/25  { color: color-mix(in srgb, #4f46e5 25%, transparent); }
+.text-indigo-700\/25  { color: color-mix(in srgb, #4338ca 25%, transparent); }
+.text-indigo-800\/25  { color: color-mix(in srgb, #3730a3 25%, transparent); }
+.text-indigo-900\/25  { color: color-mix(in srgb, #312e81 25%, transparent); }
+.text-indigo-950\/25  { color: color-mix(in srgb, #1e1b4b 25%, transparent); }
+.text-violet-50\/25   { color: color-mix(in srgb, #f5f3ff 25%, transparent); }
+.text-violet-100\/25  { color: color-mix(in srgb, #ede9fe 25%, transparent); }
+.text-violet-200\/25  { color: color-mix(in srgb, #ddd6fe 25%, transparent); }
+.text-violet-300\/25  { color: color-mix(in srgb, #c4b5fd 25%, transparent); }
+.text-violet-400\/25  { color: color-mix(in srgb, #a78bfa 25%, transparent); }
+.text-violet-500\/25  { color: color-mix(in srgb, #8b5cf6 25%, transparent); }
+.text-violet-600\/25  { color: color-mix(in srgb, #7c3aed 25%, transparent); }
+.text-violet-700\/25  { color: color-mix(in srgb, #6d28d9 25%, transparent); }
+.text-violet-800\/25  { color: color-mix(in srgb, #5b21b6 25%, transparent); }
+.text-violet-900\/25  { color: color-mix(in srgb, #4c1d95 25%, transparent); }
+.text-violet-950\/25  { color: color-mix(in srgb, #2e1065 25%, transparent); }
+.text-purple-50\/25   { color: color-mix(in srgb, #faf5ff 25%, transparent); }
+.text-purple-100\/25  { color: color-mix(in srgb, #f3e8ff 25%, transparent); }
+.text-purple-200\/25  { color: color-mix(in srgb, #e9d5ff 25%, transparent); }
+.text-purple-300\/25  { color: color-mix(in srgb, #d8b4fe 25%, transparent); }
+.text-purple-400\/25  { color: color-mix(in srgb, #c084fc 25%, transparent); }
+.text-purple-500\/25  { color: color-mix(in srgb, #a855f7 25%, transparent); }
+.text-purple-600\/25  { color: color-mix(in srgb, #9333ea 25%, transparent); }
+.text-purple-700\/25  { color: color-mix(in srgb, #7e22ce 25%, transparent); }
+.text-purple-800\/25  { color: color-mix(in srgb, #6b21a8 25%, transparent); }
+.text-purple-900\/25  { color: color-mix(in srgb, #581c87 25%, transparent); }
+.text-purple-950\/25  { color: color-mix(in srgb, #3b0764 25%, transparent); }
+.text-fuchsia-50\/25  { color: color-mix(in srgb, #fdf4ff 25%, transparent); }
+.text-fuchsia-100\/25 { color: color-mix(in srgb, #fae8ff 25%, transparent); }
+.text-fuchsia-200\/25 { color: color-mix(in srgb, #f5d0fe 25%, transparent); }
+.text-fuchsia-300\/25 { color: color-mix(in srgb, #f0abfc 25%, transparent); }
+.text-fuchsia-400\/25 { color: color-mix(in srgb, #e879f9 25%, transparent); }
+.text-fuchsia-500\/25 { color: color-mix(in srgb, #d946ef 25%, transparent); }
+.text-fuchsia-600\/25 { color: color-mix(in srgb, #c026d3 25%, transparent); }
+.text-fuchsia-700\/25 { color: color-mix(in srgb, #a21caf 25%, transparent); }
+.text-fuchsia-800\/25 { color: color-mix(in srgb, #86198f 25%, transparent); }
+.text-fuchsia-900\/25 { color: color-mix(in srgb, #701a75 25%, transparent); }
+.text-fuchsia-950\/25 { color: color-mix(in srgb, #4a044e 25%, transparent); }
+.text-pink-50\/25     { color: color-mix(in srgb, #fdf2f8 25%, transparent); }
+.text-pink-100\/25    { color: color-mix(in srgb, #fce7f3 25%, transparent); }
+.text-pink-200\/25    { color: color-mix(in srgb, #fbcfe8 25%, transparent); }
+.text-pink-300\/25    { color: color-mix(in srgb, #f9a8d4 25%, transparent); }
+.text-pink-400\/25    { color: color-mix(in srgb, #f472b6 25%, transparent); }
+.text-pink-500\/25    { color: color-mix(in srgb, #ec4899 25%, transparent); }
+.text-pink-600\/25    { color: color-mix(in srgb, #db2777 25%, transparent); }
+.text-pink-700\/25    { color: color-mix(in srgb, #be185d 25%, transparent); }
+.text-pink-800\/25    { color: color-mix(in srgb, #9d174d 25%, transparent); }
+.text-pink-900\/25    { color: color-mix(in srgb, #831843 25%, transparent); }
+.text-pink-950\/25    { color: color-mix(in srgb, #500724 25%, transparent); }
+.text-rose-50\/25     { color: color-mix(in srgb, #fff1f2 25%, transparent); }
+.text-rose-100\/25    { color: color-mix(in srgb, #ffe4e6 25%, transparent); }
+.text-rose-200\/25    { color: color-mix(in srgb, #fecdd3 25%, transparent); }
+.text-rose-300\/25    { color: color-mix(in srgb, #fda4af 25%, transparent); }
+.text-rose-400\/25    { color: color-mix(in srgb, #fb7185 25%, transparent); }
+.text-rose-500\/25    { color: color-mix(in srgb, #f43f5e 25%, transparent); }
+.text-rose-600\/25    { color: color-mix(in srgb, #e11d48 25%, transparent); }
+.text-rose-700\/25    { color: color-mix(in srgb, #be123c 25%, transparent); }
+.text-rose-800\/25    { color: color-mix(in srgb, #9f1239 25%, transparent); }
+.text-rose-900\/25    { color: color-mix(in srgb, #881337 25%, transparent); }
+.text-rose-950\/25    { color: color-mix(in srgb, #4c0519 25%, transparent); }
+.text-mauve-50\/25    { color: color-mix(in srgb, #fafafa 25%, transparent); }
+.text-mauve-100\/25   { color: color-mix(in srgb, #f3f1f3 25%, transparent); }
+.text-mauve-200\/25   { color: color-mix(in srgb, #e7e4e7 25%, transparent); }
+.text-mauve-300\/25   { color: color-mix(in srgb, #d7d0d7 25%, transparent); }
+.text-mauve-400\/25   { color: color-mix(in srgb, #a89ea9 25%, transparent); }
+.text-mauve-500\/25   { color: color-mix(in srgb, #79697b 25%, transparent); }
+.text-mauve-600\/25   { color: color-mix(in srgb, #594c5b 25%, transparent); }
+.text-mauve-700\/25   { color: color-mix(in srgb, #463947 25%, transparent); }
+.text-mauve-800\/25   { color: color-mix(in srgb, #2a212c 25%, transparent); }
+.text-mauve-900\/25   { color: color-mix(in srgb, #1d161e 25%, transparent); }
+.text-mauve-950\/25   { color: color-mix(in srgb, #0c090c 25%, transparent); }
+.text-olive-50\/25    { color: color-mix(in srgb, #fbfbf9 25%, transparent); }
+.text-olive-100\/25   { color: color-mix(in srgb, #f4f4f0 25%, transparent); }
+.text-olive-200\/25   { color: color-mix(in srgb, #e8e8e3 25%, transparent); }
+.text-olive-300\/25   { color: color-mix(in srgb, #d8d8d0 25%, transparent); }
+.text-olive-400\/25   { color: color-mix(in srgb, #abab9c 25%, transparent); }
+.text-olive-500\/25   { color: color-mix(in srgb, #7c7c67 25%, transparent); }
+.text-olive-600\/25   { color: color-mix(in srgb, #5b5b4b 25%, transparent); }
+.text-olive-700\/25   { color: color-mix(in srgb, #474739 25%, transparent); }
+.text-olive-800\/25   { color: color-mix(in srgb, #2b2b22 25%, transparent); }
+.text-olive-900\/25   { color: color-mix(in srgb, #1d1d16 25%, transparent); }
+.text-olive-950\/25   { color: color-mix(in srgb, #0c0c09 25%, transparent); }
+.text-mist-50\/25     { color: color-mix(in srgb, #f9fbfb 25%, transparent); }
+.text-mist-100\/25    { color: color-mix(in srgb, #f1f3f3 25%, transparent); }
+.text-mist-200\/25    { color: color-mix(in srgb, #e3e7e8 25%, transparent); }
+.text-mist-300\/25    { color: color-mix(in srgb, #d0d6d8 25%, transparent); }
+.text-mist-400\/25    { color: color-mix(in srgb, #9ca8ab 25%, transparent); }
+.text-mist-500\/25    { color: color-mix(in srgb, #67787c 25%, transparent); }
+.text-mist-600\/25    { color: color-mix(in srgb, #4b585b 25%, transparent); }
+.text-mist-700\/25    { color: color-mix(in srgb, #394447 25%, transparent); }
+.text-mist-800\/25    { color: color-mix(in srgb, #22292b 25%, transparent); }
+.text-mist-900\/25    { color: color-mix(in srgb, #161b1d 25%, transparent); }
+.text-mist-950\/25    { color: color-mix(in srgb, #090b0c 25%, transparent); }
+.text-taupe-50\/25    { color: color-mix(in srgb, #fbfaf9 25%, transparent); }
+.text-taupe-100\/25   { color: color-mix(in srgb, #f3f1f1 25%, transparent); }
+.text-taupe-200\/25   { color: color-mix(in srgb, #e8e4e3 25%, transparent); }
+.text-taupe-300\/25   { color: color-mix(in srgb, #d8d2d0 25%, transparent); }
+.text-taupe-400\/25   { color: color-mix(in srgb, #aba09c 25%, transparent); }
+.text-taupe-500\/25   { color: color-mix(in srgb, #7c6d67 25%, transparent); }
+.text-taupe-600\/25   { color: color-mix(in srgb, #5b4f4b 25%, transparent); }
+.text-taupe-700\/25   { color: color-mix(in srgb, #473c39 25%, transparent); }
+.text-taupe-800\/25   { color: color-mix(in srgb, #2b2422 25%, transparent); }
+.text-taupe-900\/25   { color: color-mix(in srgb, #1d1816 25%, transparent); }
+.text-taupe-950\/25   { color: color-mix(in srgb, #0c0a09 25%, transparent); }
+
+/* opacity: 50% */
+.text-transparent\/50 { color: color-mix(in srgb, transparent 50%, transparent); }
+.text-current\/50     { color: color-mix(in srgb, currentColor 50%, transparent); }
+.text-black\/50       { color: color-mix(in srgb, #000000 50%, transparent); }
+.text-white\/50       { color: color-mix(in srgb, #ffffff 50%, transparent); }
+.text-slate-50\/50    { color: color-mix(in srgb, #f8fafc 50%, transparent); }
+.text-slate-100\/50   { color: color-mix(in srgb, #f1f5f9 50%, transparent); }
+.text-slate-200\/50   { color: color-mix(in srgb, #e2e8f0 50%, transparent); }
+.text-slate-300\/50   { color: color-mix(in srgb, #cbd5e1 50%, transparent); }
+.text-slate-400\/50   { color: color-mix(in srgb, #94a3b8 50%, transparent); }
+.text-slate-500\/50   { color: color-mix(in srgb, #64748b 50%, transparent); }
+.text-slate-600\/50   { color: color-mix(in srgb, #475569 50%, transparent); }
+.text-slate-700\/50   { color: color-mix(in srgb, #334155 50%, transparent); }
+.text-slate-800\/50   { color: color-mix(in srgb, #1e293b 50%, transparent); }
+.text-slate-900\/50   { color: color-mix(in srgb, #0f172a 50%, transparent); }
+.text-slate-950\/50   { color: color-mix(in srgb, #020617 50%, transparent); }
+.text-gray-50\/50     { color: color-mix(in srgb, #f9fafb 50%, transparent); }
+.text-gray-100\/50    { color: color-mix(in srgb, #f3f4f6 50%, transparent); }
+.text-gray-200\/50    { color: color-mix(in srgb, #e5e7eb 50%, transparent); }
+.text-gray-300\/50    { color: color-mix(in srgb, #d1d5db 50%, transparent); }
+.text-gray-400\/50    { color: color-mix(in srgb, #9ca3af 50%, transparent); }
+.text-gray-500\/50    { color: color-mix(in srgb, #6b7280 50%, transparent); }
+.text-gray-600\/50    { color: color-mix(in srgb, #4b5563 50%, transparent); }
+.text-gray-700\/50    { color: color-mix(in srgb, #374151 50%, transparent); }
+.text-gray-800\/50    { color: color-mix(in srgb, #1f2937 50%, transparent); }
+.text-gray-900\/50    { color: color-mix(in srgb, #111827 50%, transparent); }
+.text-gray-950\/50    { color: color-mix(in srgb, #030712 50%, transparent); }
+.text-zinc-50\/50     { color: color-mix(in srgb, #fafafa 50%, transparent); }
+.text-zinc-100\/50    { color: color-mix(in srgb, #f4f4f5 50%, transparent); }
+.text-zinc-200\/50    { color: color-mix(in srgb, #e4e4e7 50%, transparent); }
+.text-zinc-300\/50    { color: color-mix(in srgb, #d4d4d8 50%, transparent); }
+.text-zinc-400\/50    { color: color-mix(in srgb, #a1a1aa 50%, transparent); }
+.text-zinc-500\/50    { color: color-mix(in srgb, #71717a 50%, transparent); }
+.text-zinc-600\/50    { color: color-mix(in srgb, #52525b 50%, transparent); }
+.text-zinc-700\/50    { color: color-mix(in srgb, #3f3f46 50%, transparent); }
+.text-zinc-800\/50    { color: color-mix(in srgb, #27272a 50%, transparent); }
+.text-zinc-900\/50    { color: color-mix(in srgb, #18181b 50%, transparent); }
+.text-zinc-950\/50    { color: color-mix(in srgb, #09090b 50%, transparent); }
+.text-neutral-50\/50  { color: color-mix(in srgb, #fafafa 50%, transparent); }
+.text-neutral-100\/50 { color: color-mix(in srgb, #f5f5f5 50%, transparent); }
+.text-neutral-200\/50 { color: color-mix(in srgb, #e5e5e5 50%, transparent); }
+.text-neutral-300\/50 { color: color-mix(in srgb, #d4d4d4 50%, transparent); }
+.text-neutral-400\/50 { color: color-mix(in srgb, #a3a3a3 50%, transparent); }
+.text-neutral-500\/50 { color: color-mix(in srgb, #737373 50%, transparent); }
+.text-neutral-600\/50 { color: color-mix(in srgb, #525252 50%, transparent); }
+.text-neutral-700\/50 { color: color-mix(in srgb, #404040 50%, transparent); }
+.text-neutral-800\/50 { color: color-mix(in srgb, #262626 50%, transparent); }
+.text-neutral-900\/50 { color: color-mix(in srgb, #171717 50%, transparent); }
+.text-neutral-950\/50 { color: color-mix(in srgb, #0a0a0a 50%, transparent); }
+.text-stone-50\/50    { color: color-mix(in srgb, #fafaf9 50%, transparent); }
+.text-stone-100\/50   { color: color-mix(in srgb, #f5f5f4 50%, transparent); }
+.text-stone-200\/50   { color: color-mix(in srgb, #e7e5e4 50%, transparent); }
+.text-stone-300\/50   { color: color-mix(in srgb, #d6d3d1 50%, transparent); }
+.text-stone-400\/50   { color: color-mix(in srgb, #a8a29e 50%, transparent); }
+.text-stone-500\/50   { color: color-mix(in srgb, #78716c 50%, transparent); }
+.text-stone-600\/50   { color: color-mix(in srgb, #57534e 50%, transparent); }
+.text-stone-700\/50   { color: color-mix(in srgb, #44403c 50%, transparent); }
+.text-stone-800\/50   { color: color-mix(in srgb, #292524 50%, transparent); }
+.text-stone-900\/50   { color: color-mix(in srgb, #1c1917 50%, transparent); }
+.text-stone-950\/50   { color: color-mix(in srgb, #0c0a09 50%, transparent); }
+.text-red-50\/50      { color: color-mix(in srgb, #fef2f2 50%, transparent); }
+.text-red-100\/50     { color: color-mix(in srgb, #fee2e2 50%, transparent); }
+.text-red-200\/50     { color: color-mix(in srgb, #fecaca 50%, transparent); }
+.text-red-300\/50     { color: color-mix(in srgb, #fca5a5 50%, transparent); }
+.text-red-400\/50     { color: color-mix(in srgb, #f87171 50%, transparent); }
+.text-red-500\/50     { color: color-mix(in srgb, #ef4444 50%, transparent); }
+.text-red-600\/50     { color: color-mix(in srgb, #dc2626 50%, transparent); }
+.text-red-700\/50     { color: color-mix(in srgb, #b91c1c 50%, transparent); }
+.text-red-800\/50     { color: color-mix(in srgb, #991b1b 50%, transparent); }
+.text-red-900\/50     { color: color-mix(in srgb, #7f1d1d 50%, transparent); }
+.text-red-950\/50     { color: color-mix(in srgb, #450a0a 50%, transparent); }
+.text-orange-50\/50   { color: color-mix(in srgb, #fff7ed 50%, transparent); }
+.text-orange-100\/50  { color: color-mix(in srgb, #ffedd5 50%, transparent); }
+.text-orange-200\/50  { color: color-mix(in srgb, #fed7aa 50%, transparent); }
+.text-orange-300\/50  { color: color-mix(in srgb, #fdba74 50%, transparent); }
+.text-orange-400\/50  { color: color-mix(in srgb, #fb923c 50%, transparent); }
+.text-orange-500\/50  { color: color-mix(in srgb, #f97316 50%, transparent); }
+.text-orange-600\/50  { color: color-mix(in srgb, #ea580c 50%, transparent); }
+.text-orange-700\/50  { color: color-mix(in srgb, #c2410c 50%, transparent); }
+.text-orange-800\/50  { color: color-mix(in srgb, #9a3412 50%, transparent); }
+.text-orange-900\/50  { color: color-mix(in srgb, #7c2d12 50%, transparent); }
+.text-orange-950\/50  { color: color-mix(in srgb, #431407 50%, transparent); }
+.text-amber-50\/50    { color: color-mix(in srgb, #fffbeb 50%, transparent); }
+.text-amber-100\/50   { color: color-mix(in srgb, #fef3c7 50%, transparent); }
+.text-amber-200\/50   { color: color-mix(in srgb, #fde68a 50%, transparent); }
+.text-amber-300\/50   { color: color-mix(in srgb, #fcd34d 50%, transparent); }
+.text-amber-400\/50   { color: color-mix(in srgb, #fbbf24 50%, transparent); }
+.text-amber-500\/50   { color: color-mix(in srgb, #f59e0b 50%, transparent); }
+.text-amber-600\/50   { color: color-mix(in srgb, #d97706 50%, transparent); }
+.text-amber-700\/50   { color: color-mix(in srgb, #b45309 50%, transparent); }
+.text-amber-800\/50   { color: color-mix(in srgb, #92400e 50%, transparent); }
+.text-amber-900\/50   { color: color-mix(in srgb, #78350f 50%, transparent); }
+.text-amber-950\/50   { color: color-mix(in srgb, #451a03 50%, transparent); }
+.text-yellow-50\/50   { color: color-mix(in srgb, #fefce8 50%, transparent); }
+.text-yellow-100\/50  { color: color-mix(in srgb, #fef9c3 50%, transparent); }
+.text-yellow-200\/50  { color: color-mix(in srgb, #fef08a 50%, transparent); }
+.text-yellow-300\/50  { color: color-mix(in srgb, #fde047 50%, transparent); }
+.text-yellow-400\/50  { color: color-mix(in srgb, #facc15 50%, transparent); }
+.text-yellow-500\/50  { color: color-mix(in srgb, #eab308 50%, transparent); }
+.text-yellow-600\/50  { color: color-mix(in srgb, #ca8a04 50%, transparent); }
+.text-yellow-700\/50  { color: color-mix(in srgb, #a16207 50%, transparent); }
+.text-yellow-800\/50  { color: color-mix(in srgb, #854d0e 50%, transparent); }
+.text-yellow-900\/50  { color: color-mix(in srgb, #713f12 50%, transparent); }
+.text-yellow-950\/50  { color: color-mix(in srgb, #422006 50%, transparent); }
+.text-lime-50\/50     { color: color-mix(in srgb, #f7fee7 50%, transparent); }
+.text-lime-100\/50    { color: color-mix(in srgb, #ecfccb 50%, transparent); }
+.text-lime-200\/50    { color: color-mix(in srgb, #d9f99d 50%, transparent); }
+.text-lime-300\/50    { color: color-mix(in srgb, #bef264 50%, transparent); }
+.text-lime-400\/50    { color: color-mix(in srgb, #a3e635 50%, transparent); }
+.text-lime-500\/50    { color: color-mix(in srgb, #84cc16 50%, transparent); }
+.text-lime-600\/50    { color: color-mix(in srgb, #65a30d 50%, transparent); }
+.text-lime-700\/50    { color: color-mix(in srgb, #4d7c0f 50%, transparent); }
+.text-lime-800\/50    { color: color-mix(in srgb, #3f6212 50%, transparent); }
+.text-lime-900\/50    { color: color-mix(in srgb, #365314 50%, transparent); }
+.text-lime-950\/50    { color: color-mix(in srgb, #1a2e05 50%, transparent); }
+.text-green-50\/50    { color: color-mix(in srgb, #f0fdf4 50%, transparent); }
+.text-green-100\/50   { color: color-mix(in srgb, #dcfce7 50%, transparent); }
+.text-green-200\/50   { color: color-mix(in srgb, #bbf7d0 50%, transparent); }
+.text-green-300\/50   { color: color-mix(in srgb, #86efac 50%, transparent); }
+.text-green-400\/50   { color: color-mix(in srgb, #4ade80 50%, transparent); }
+.text-green-500\/50   { color: color-mix(in srgb, #22c55e 50%, transparent); }
+.text-green-600\/50   { color: color-mix(in srgb, #16a34a 50%, transparent); }
+.text-green-700\/50   { color: color-mix(in srgb, #15803d 50%, transparent); }
+.text-green-800\/50   { color: color-mix(in srgb, #166534 50%, transparent); }
+.text-green-900\/50   { color: color-mix(in srgb, #14532d 50%, transparent); }
+.text-green-950\/50   { color: color-mix(in srgb, #052e16 50%, transparent); }
+.text-emerald-50\/50  { color: color-mix(in srgb, #ecfdf5 50%, transparent); }
+.text-emerald-100\/50 { color: color-mix(in srgb, #d1fae5 50%, transparent); }
+.text-emerald-200\/50 { color: color-mix(in srgb, #a7f3d0 50%, transparent); }
+.text-emerald-300\/50 { color: color-mix(in srgb, #6ee7b7 50%, transparent); }
+.text-emerald-400\/50 { color: color-mix(in srgb, #34d399 50%, transparent); }
+.text-emerald-500\/50 { color: color-mix(in srgb, #10b981 50%, transparent); }
+.text-emerald-600\/50 { color: color-mix(in srgb, #059669 50%, transparent); }
+.text-emerald-700\/50 { color: color-mix(in srgb, #047857 50%, transparent); }
+.text-emerald-800\/50 { color: color-mix(in srgb, #065f46 50%, transparent); }
+.text-emerald-900\/50 { color: color-mix(in srgb, #064e3b 50%, transparent); }
+.text-emerald-950\/50 { color: color-mix(in srgb, #022c22 50%, transparent); }
+.text-teal-50\/50     { color: color-mix(in srgb, #f0fdfa 50%, transparent); }
+.text-teal-100\/50    { color: color-mix(in srgb, #ccfbf1 50%, transparent); }
+.text-teal-200\/50    { color: color-mix(in srgb, #99f6e4 50%, transparent); }
+.text-teal-300\/50    { color: color-mix(in srgb, #5eead4 50%, transparent); }
+.text-teal-400\/50    { color: color-mix(in srgb, #2dd4bf 50%, transparent); }
+.text-teal-500\/50    { color: color-mix(in srgb, #14b8a6 50%, transparent); }
+.text-teal-600\/50    { color: color-mix(in srgb, #0d9488 50%, transparent); }
+.text-teal-700\/50    { color: color-mix(in srgb, #0f766e 50%, transparent); }
+.text-teal-800\/50    { color: color-mix(in srgb, #115e59 50%, transparent); }
+.text-teal-900\/50    { color: color-mix(in srgb, #134e4a 50%, transparent); }
+.text-teal-950\/50    { color: color-mix(in srgb, #042f2e 50%, transparent); }
+.text-cyan-50\/50     { color: color-mix(in srgb, #ecfeff 50%, transparent); }
+.text-cyan-100\/50    { color: color-mix(in srgb, #cffafe 50%, transparent); }
+.text-cyan-200\/50    { color: color-mix(in srgb, #a5f3fc 50%, transparent); }
+.text-cyan-300\/50    { color: color-mix(in srgb, #67e8f9 50%, transparent); }
+.text-cyan-400\/50    { color: color-mix(in srgb, #22d3ee 50%, transparent); }
+.text-cyan-500\/50    { color: color-mix(in srgb, #06b6d4 50%, transparent); }
+.text-cyan-600\/50    { color: color-mix(in srgb, #0891b2 50%, transparent); }
+.text-cyan-700\/50    { color: color-mix(in srgb, #0e7490 50%, transparent); }
+.text-cyan-800\/50    { color: color-mix(in srgb, #155e75 50%, transparent); }
+.text-cyan-900\/50    { color: color-mix(in srgb, #164e63 50%, transparent); }
+.text-cyan-950\/50    { color: color-mix(in srgb, #083344 50%, transparent); }
+.text-sky-50\/50      { color: color-mix(in srgb, #f0f9ff 50%, transparent); }
+.text-sky-100\/50     { color: color-mix(in srgb, #e0f2fe 50%, transparent); }
+.text-sky-200\/50     { color: color-mix(in srgb, #bae6fd 50%, transparent); }
+.text-sky-300\/50     { color: color-mix(in srgb, #7dd3fc 50%, transparent); }
+.text-sky-400\/50     { color: color-mix(in srgb, #38bdf8 50%, transparent); }
+.text-sky-500\/50     { color: color-mix(in srgb, #0ea5e9 50%, transparent); }
+.text-sky-600\/50     { color: color-mix(in srgb, #0284c7 50%, transparent); }
+.text-sky-700\/50     { color: color-mix(in srgb, #0369a1 50%, transparent); }
+.text-sky-800\/50     { color: color-mix(in srgb, #075985 50%, transparent); }
+.text-sky-900\/50     { color: color-mix(in srgb, #0c4a6e 50%, transparent); }
+.text-sky-950\/50     { color: color-mix(in srgb, #082f49 50%, transparent); }
+.text-blue-50\/50     { color: color-mix(in srgb, #eff6ff 50%, transparent); }
+.text-blue-100\/50    { color: color-mix(in srgb, #dbeafe 50%, transparent); }
+.text-blue-200\/50    { color: color-mix(in srgb, #bfdbfe 50%, transparent); }
+.text-blue-300\/50    { color: color-mix(in srgb, #93c5fd 50%, transparent); }
+.text-blue-400\/50    { color: color-mix(in srgb, #60a5fa 50%, transparent); }
+.text-blue-500\/50    { color: color-mix(in srgb, #3b82f6 50%, transparent); }
+.text-blue-600\/50    { color: color-mix(in srgb, #2563eb 50%, transparent); }
+.text-blue-700\/50    { color: color-mix(in srgb, #1d4ed8 50%, transparent); }
+.text-blue-800\/50    { color: color-mix(in srgb, #1e40af 50%, transparent); }
+.text-blue-900\/50    { color: color-mix(in srgb, #1e3a8a 50%, transparent); }
+.text-blue-950\/50    { color: color-mix(in srgb, #172554 50%, transparent); }
+.text-indigo-50\/50   { color: color-mix(in srgb, #eef2ff 50%, transparent); }
+.text-indigo-100\/50  { color: color-mix(in srgb, #e0e7ff 50%, transparent); }
+.text-indigo-200\/50  { color: color-mix(in srgb, #c7d2fe 50%, transparent); }
+.text-indigo-300\/50  { color: color-mix(in srgb, #a5b4fc 50%, transparent); }
+.text-indigo-400\/50  { color: color-mix(in srgb, #818cf8 50%, transparent); }
+.text-indigo-500\/50  { color: color-mix(in srgb, #6366f1 50%, transparent); }
+.text-indigo-600\/50  { color: color-mix(in srgb, #4f46e5 50%, transparent); }
+.text-indigo-700\/50  { color: color-mix(in srgb, #4338ca 50%, transparent); }
+.text-indigo-800\/50  { color: color-mix(in srgb, #3730a3 50%, transparent); }
+.text-indigo-900\/50  { color: color-mix(in srgb, #312e81 50%, transparent); }
+.text-indigo-950\/50  { color: color-mix(in srgb, #1e1b4b 50%, transparent); }
+.text-violet-50\/50   { color: color-mix(in srgb, #f5f3ff 50%, transparent); }
+.text-violet-100\/50  { color: color-mix(in srgb, #ede9fe 50%, transparent); }
+.text-violet-200\/50  { color: color-mix(in srgb, #ddd6fe 50%, transparent); }
+.text-violet-300\/50  { color: color-mix(in srgb, #c4b5fd 50%, transparent); }
+.text-violet-400\/50  { color: color-mix(in srgb, #a78bfa 50%, transparent); }
+.text-violet-500\/50  { color: color-mix(in srgb, #8b5cf6 50%, transparent); }
+.text-violet-600\/50  { color: color-mix(in srgb, #7c3aed 50%, transparent); }
+.text-violet-700\/50  { color: color-mix(in srgb, #6d28d9 50%, transparent); }
+.text-violet-800\/50  { color: color-mix(in srgb, #5b21b6 50%, transparent); }
+.text-violet-900\/50  { color: color-mix(in srgb, #4c1d95 50%, transparent); }
+.text-violet-950\/50  { color: color-mix(in srgb, #2e1065 50%, transparent); }
+.text-purple-50\/50   { color: color-mix(in srgb, #faf5ff 50%, transparent); }
+.text-purple-100\/50  { color: color-mix(in srgb, #f3e8ff 50%, transparent); }
+.text-purple-200\/50  { color: color-mix(in srgb, #e9d5ff 50%, transparent); }
+.text-purple-300\/50  { color: color-mix(in srgb, #d8b4fe 50%, transparent); }
+.text-purple-400\/50  { color: color-mix(in srgb, #c084fc 50%, transparent); }
+.text-purple-500\/50  { color: color-mix(in srgb, #a855f7 50%, transparent); }
+.text-purple-600\/50  { color: color-mix(in srgb, #9333ea 50%, transparent); }
+.text-purple-700\/50  { color: color-mix(in srgb, #7e22ce 50%, transparent); }
+.text-purple-800\/50  { color: color-mix(in srgb, #6b21a8 50%, transparent); }
+.text-purple-900\/50  { color: color-mix(in srgb, #581c87 50%, transparent); }
+.text-purple-950\/50  { color: color-mix(in srgb, #3b0764 50%, transparent); }
+.text-fuchsia-50\/50  { color: color-mix(in srgb, #fdf4ff 50%, transparent); }
+.text-fuchsia-100\/50 { color: color-mix(in srgb, #fae8ff 50%, transparent); }
+.text-fuchsia-200\/50 { color: color-mix(in srgb, #f5d0fe 50%, transparent); }
+.text-fuchsia-300\/50 { color: color-mix(in srgb, #f0abfc 50%, transparent); }
+.text-fuchsia-400\/50 { color: color-mix(in srgb, #e879f9 50%, transparent); }
+.text-fuchsia-500\/50 { color: color-mix(in srgb, #d946ef 50%, transparent); }
+.text-fuchsia-600\/50 { color: color-mix(in srgb, #c026d3 50%, transparent); }
+.text-fuchsia-700\/50 { color: color-mix(in srgb, #a21caf 50%, transparent); }
+.text-fuchsia-800\/50 { color: color-mix(in srgb, #86198f 50%, transparent); }
+.text-fuchsia-900\/50 { color: color-mix(in srgb, #701a75 50%, transparent); }
+.text-fuchsia-950\/50 { color: color-mix(in srgb, #4a044e 50%, transparent); }
+.text-pink-50\/50     { color: color-mix(in srgb, #fdf2f8 50%, transparent); }
+.text-pink-100\/50    { color: color-mix(in srgb, #fce7f3 50%, transparent); }
+.text-pink-200\/50    { color: color-mix(in srgb, #fbcfe8 50%, transparent); }
+.text-pink-300\/50    { color: color-mix(in srgb, #f9a8d4 50%, transparent); }
+.text-pink-400\/50    { color: color-mix(in srgb, #f472b6 50%, transparent); }
+.text-pink-500\/50    { color: color-mix(in srgb, #ec4899 50%, transparent); }
+.text-pink-600\/50    { color: color-mix(in srgb, #db2777 50%, transparent); }
+.text-pink-700\/50    { color: color-mix(in srgb, #be185d 50%, transparent); }
+.text-pink-800\/50    { color: color-mix(in srgb, #9d174d 50%, transparent); }
+.text-pink-900\/50    { color: color-mix(in srgb, #831843 50%, transparent); }
+.text-pink-950\/50    { color: color-mix(in srgb, #500724 50%, transparent); }
+.text-rose-50\/50     { color: color-mix(in srgb, #fff1f2 50%, transparent); }
+.text-rose-100\/50    { color: color-mix(in srgb, #ffe4e6 50%, transparent); }
+.text-rose-200\/50    { color: color-mix(in srgb, #fecdd3 50%, transparent); }
+.text-rose-300\/50    { color: color-mix(in srgb, #fda4af 50%, transparent); }
+.text-rose-400\/50    { color: color-mix(in srgb, #fb7185 50%, transparent); }
+.text-rose-500\/50    { color: color-mix(in srgb, #f43f5e 50%, transparent); }
+.text-rose-600\/50    { color: color-mix(in srgb, #e11d48 50%, transparent); }
+.text-rose-700\/50    { color: color-mix(in srgb, #be123c 50%, transparent); }
+.text-rose-800\/50    { color: color-mix(in srgb, #9f1239 50%, transparent); }
+.text-rose-900\/50    { color: color-mix(in srgb, #881337 50%, transparent); }
+.text-rose-950\/50    { color: color-mix(in srgb, #4c0519 50%, transparent); }
+.text-mauve-50\/50    { color: color-mix(in srgb, #fafafa 50%, transparent); }
+.text-mauve-100\/50   { color: color-mix(in srgb, #f3f1f3 50%, transparent); }
+.text-mauve-200\/50   { color: color-mix(in srgb, #e7e4e7 50%, transparent); }
+.text-mauve-300\/50   { color: color-mix(in srgb, #d7d0d7 50%, transparent); }
+.text-mauve-400\/50   { color: color-mix(in srgb, #a89ea9 50%, transparent); }
+.text-mauve-500\/50   { color: color-mix(in srgb, #79697b 50%, transparent); }
+.text-mauve-600\/50   { color: color-mix(in srgb, #594c5b 50%, transparent); }
+.text-mauve-700\/50   { color: color-mix(in srgb, #463947 50%, transparent); }
+.text-mauve-800\/50   { color: color-mix(in srgb, #2a212c 50%, transparent); }
+.text-mauve-900\/50   { color: color-mix(in srgb, #1d161e 50%, transparent); }
+.text-mauve-950\/50   { color: color-mix(in srgb, #0c090c 50%, transparent); }
+.text-olive-50\/50    { color: color-mix(in srgb, #fbfbf9 50%, transparent); }
+.text-olive-100\/50   { color: color-mix(in srgb, #f4f4f0 50%, transparent); }
+.text-olive-200\/50   { color: color-mix(in srgb, #e8e8e3 50%, transparent); }
+.text-olive-300\/50   { color: color-mix(in srgb, #d8d8d0 50%, transparent); }
+.text-olive-400\/50   { color: color-mix(in srgb, #abab9c 50%, transparent); }
+.text-olive-500\/50   { color: color-mix(in srgb, #7c7c67 50%, transparent); }
+.text-olive-600\/50   { color: color-mix(in srgb, #5b5b4b 50%, transparent); }
+.text-olive-700\/50   { color: color-mix(in srgb, #474739 50%, transparent); }
+.text-olive-800\/50   { color: color-mix(in srgb, #2b2b22 50%, transparent); }
+.text-olive-900\/50   { color: color-mix(in srgb, #1d1d16 50%, transparent); }
+.text-olive-950\/50   { color: color-mix(in srgb, #0c0c09 50%, transparent); }
+.text-mist-50\/50     { color: color-mix(in srgb, #f9fbfb 50%, transparent); }
+.text-mist-100\/50    { color: color-mix(in srgb, #f1f3f3 50%, transparent); }
+.text-mist-200\/50    { color: color-mix(in srgb, #e3e7e8 50%, transparent); }
+.text-mist-300\/50    { color: color-mix(in srgb, #d0d6d8 50%, transparent); }
+.text-mist-400\/50    { color: color-mix(in srgb, #9ca8ab 50%, transparent); }
+.text-mist-500\/50    { color: color-mix(in srgb, #67787c 50%, transparent); }
+.text-mist-600\/50    { color: color-mix(in srgb, #4b585b 50%, transparent); }
+.text-mist-700\/50    { color: color-mix(in srgb, #394447 50%, transparent); }
+.text-mist-800\/50    { color: color-mix(in srgb, #22292b 50%, transparent); }
+.text-mist-900\/50    { color: color-mix(in srgb, #161b1d 50%, transparent); }
+.text-mist-950\/50    { color: color-mix(in srgb, #090b0c 50%, transparent); }
+.text-taupe-50\/50    { color: color-mix(in srgb, #fbfaf9 50%, transparent); }
+.text-taupe-100\/50   { color: color-mix(in srgb, #f3f1f1 50%, transparent); }
+.text-taupe-200\/50   { color: color-mix(in srgb, #e8e4e3 50%, transparent); }
+.text-taupe-300\/50   { color: color-mix(in srgb, #d8d2d0 50%, transparent); }
+.text-taupe-400\/50   { color: color-mix(in srgb, #aba09c 50%, transparent); }
+.text-taupe-500\/50   { color: color-mix(in srgb, #7c6d67 50%, transparent); }
+.text-taupe-600\/50   { color: color-mix(in srgb, #5b4f4b 50%, transparent); }
+.text-taupe-700\/50   { color: color-mix(in srgb, #473c39 50%, transparent); }
+.text-taupe-800\/50   { color: color-mix(in srgb, #2b2422 50%, transparent); }
+.text-taupe-900\/50   { color: color-mix(in srgb, #1d1816 50%, transparent); }
+.text-taupe-950\/50   { color: color-mix(in srgb, #0c0a09 50%, transparent); }
+
+/* opacity: 75% */
+.text-transparent\/75 { color: color-mix(in srgb, transparent 75%, transparent); }
+.text-current\/75     { color: color-mix(in srgb, currentColor 75%, transparent); }
+.text-black\/75       { color: color-mix(in srgb, #000000 75%, transparent); }
+.text-white\/75       { color: color-mix(in srgb, #ffffff 75%, transparent); }
+.text-slate-50\/75    { color: color-mix(in srgb, #f8fafc 75%, transparent); }
+.text-slate-100\/75   { color: color-mix(in srgb, #f1f5f9 75%, transparent); }
+.text-slate-200\/75   { color: color-mix(in srgb, #e2e8f0 75%, transparent); }
+.text-slate-300\/75   { color: color-mix(in srgb, #cbd5e1 75%, transparent); }
+.text-slate-400\/75   { color: color-mix(in srgb, #94a3b8 75%, transparent); }
+.text-slate-500\/75   { color: color-mix(in srgb, #64748b 75%, transparent); }
+.text-slate-600\/75   { color: color-mix(in srgb, #475569 75%, transparent); }
+.text-slate-700\/75   { color: color-mix(in srgb, #334155 75%, transparent); }
+.text-slate-800\/75   { color: color-mix(in srgb, #1e293b 75%, transparent); }
+.text-slate-900\/75   { color: color-mix(in srgb, #0f172a 75%, transparent); }
+.text-slate-950\/75   { color: color-mix(in srgb, #020617 75%, transparent); }
+.text-gray-50\/75     { color: color-mix(in srgb, #f9fafb 75%, transparent); }
+.text-gray-100\/75    { color: color-mix(in srgb, #f3f4f6 75%, transparent); }
+.text-gray-200\/75    { color: color-mix(in srgb, #e5e7eb 75%, transparent); }
+.text-gray-300\/75    { color: color-mix(in srgb, #d1d5db 75%, transparent); }
+.text-gray-400\/75    { color: color-mix(in srgb, #9ca3af 75%, transparent); }
+.text-gray-500\/75    { color: color-mix(in srgb, #6b7280 75%, transparent); }
+.text-gray-600\/75    { color: color-mix(in srgb, #4b5563 75%, transparent); }
+.text-gray-700\/75    { color: color-mix(in srgb, #374151 75%, transparent); }
+.text-gray-800\/75    { color: color-mix(in srgb, #1f2937 75%, transparent); }
+.text-gray-900\/75    { color: color-mix(in srgb, #111827 75%, transparent); }
+.text-gray-950\/75    { color: color-mix(in srgb, #030712 75%, transparent); }
+.text-zinc-50\/75     { color: color-mix(in srgb, #fafafa 75%, transparent); }
+.text-zinc-100\/75    { color: color-mix(in srgb, #f4f4f5 75%, transparent); }
+.text-zinc-200\/75    { color: color-mix(in srgb, #e4e4e7 75%, transparent); }
+.text-zinc-300\/75    { color: color-mix(in srgb, #d4d4d8 75%, transparent); }
+.text-zinc-400\/75    { color: color-mix(in srgb, #a1a1aa 75%, transparent); }
+.text-zinc-500\/75    { color: color-mix(in srgb, #71717a 75%, transparent); }
+.text-zinc-600\/75    { color: color-mix(in srgb, #52525b 75%, transparent); }
+.text-zinc-700\/75    { color: color-mix(in srgb, #3f3f46 75%, transparent); }
+.text-zinc-800\/75    { color: color-mix(in srgb, #27272a 75%, transparent); }
+.text-zinc-900\/75    { color: color-mix(in srgb, #18181b 75%, transparent); }
+.text-zinc-950\/75    { color: color-mix(in srgb, #09090b 75%, transparent); }
+.text-neutral-50\/75  { color: color-mix(in srgb, #fafafa 75%, transparent); }
+.text-neutral-100\/75 { color: color-mix(in srgb, #f5f5f5 75%, transparent); }
+.text-neutral-200\/75 { color: color-mix(in srgb, #e5e5e5 75%, transparent); }
+.text-neutral-300\/75 { color: color-mix(in srgb, #d4d4d4 75%, transparent); }
+.text-neutral-400\/75 { color: color-mix(in srgb, #a3a3a3 75%, transparent); }
+.text-neutral-500\/75 { color: color-mix(in srgb, #737373 75%, transparent); }
+.text-neutral-600\/75 { color: color-mix(in srgb, #525252 75%, transparent); }
+.text-neutral-700\/75 { color: color-mix(in srgb, #404040 75%, transparent); }
+.text-neutral-800\/75 { color: color-mix(in srgb, #262626 75%, transparent); }
+.text-neutral-900\/75 { color: color-mix(in srgb, #171717 75%, transparent); }
+.text-neutral-950\/75 { color: color-mix(in srgb, #0a0a0a 75%, transparent); }
+.text-stone-50\/75    { color: color-mix(in srgb, #fafaf9 75%, transparent); }
+.text-stone-100\/75   { color: color-mix(in srgb, #f5f5f4 75%, transparent); }
+.text-stone-200\/75   { color: color-mix(in srgb, #e7e5e4 75%, transparent); }
+.text-stone-300\/75   { color: color-mix(in srgb, #d6d3d1 75%, transparent); }
+.text-stone-400\/75   { color: color-mix(in srgb, #a8a29e 75%, transparent); }
+.text-stone-500\/75   { color: color-mix(in srgb, #78716c 75%, transparent); }
+.text-stone-600\/75   { color: color-mix(in srgb, #57534e 75%, transparent); }
+.text-stone-700\/75   { color: color-mix(in srgb, #44403c 75%, transparent); }
+.text-stone-800\/75   { color: color-mix(in srgb, #292524 75%, transparent); }
+.text-stone-900\/75   { color: color-mix(in srgb, #1c1917 75%, transparent); }
+.text-stone-950\/75   { color: color-mix(in srgb, #0c0a09 75%, transparent); }
+.text-red-50\/75      { color: color-mix(in srgb, #fef2f2 75%, transparent); }
+.text-red-100\/75     { color: color-mix(in srgb, #fee2e2 75%, transparent); }
+.text-red-200\/75     { color: color-mix(in srgb, #fecaca 75%, transparent); }
+.text-red-300\/75     { color: color-mix(in srgb, #fca5a5 75%, transparent); }
+.text-red-400\/75     { color: color-mix(in srgb, #f87171 75%, transparent); }
+.text-red-500\/75     { color: color-mix(in srgb, #ef4444 75%, transparent); }
+.text-red-600\/75     { color: color-mix(in srgb, #dc2626 75%, transparent); }
+.text-red-700\/75     { color: color-mix(in srgb, #b91c1c 75%, transparent); }
+.text-red-800\/75     { color: color-mix(in srgb, #991b1b 75%, transparent); }
+.text-red-900\/75     { color: color-mix(in srgb, #7f1d1d 75%, transparent); }
+.text-red-950\/75     { color: color-mix(in srgb, #450a0a 75%, transparent); }
+.text-orange-50\/75   { color: color-mix(in srgb, #fff7ed 75%, transparent); }
+.text-orange-100\/75  { color: color-mix(in srgb, #ffedd5 75%, transparent); }
+.text-orange-200\/75  { color: color-mix(in srgb, #fed7aa 75%, transparent); }
+.text-orange-300\/75  { color: color-mix(in srgb, #fdba74 75%, transparent); }
+.text-orange-400\/75  { color: color-mix(in srgb, #fb923c 75%, transparent); }
+.text-orange-500\/75  { color: color-mix(in srgb, #f97316 75%, transparent); }
+.text-orange-600\/75  { color: color-mix(in srgb, #ea580c 75%, transparent); }
+.text-orange-700\/75  { color: color-mix(in srgb, #c2410c 75%, transparent); }
+.text-orange-800\/75  { color: color-mix(in srgb, #9a3412 75%, transparent); }
+.text-orange-900\/75  { color: color-mix(in srgb, #7c2d12 75%, transparent); }
+.text-orange-950\/75  { color: color-mix(in srgb, #431407 75%, transparent); }
+.text-amber-50\/75    { color: color-mix(in srgb, #fffbeb 75%, transparent); }
+.text-amber-100\/75   { color: color-mix(in srgb, #fef3c7 75%, transparent); }
+.text-amber-200\/75   { color: color-mix(in srgb, #fde68a 75%, transparent); }
+.text-amber-300\/75   { color: color-mix(in srgb, #fcd34d 75%, transparent); }
+.text-amber-400\/75   { color: color-mix(in srgb, #fbbf24 75%, transparent); }
+.text-amber-500\/75   { color: color-mix(in srgb, #f59e0b 75%, transparent); }
+.text-amber-600\/75   { color: color-mix(in srgb, #d97706 75%, transparent); }
+.text-amber-700\/75   { color: color-mix(in srgb, #b45309 75%, transparent); }
+.text-amber-800\/75   { color: color-mix(in srgb, #92400e 75%, transparent); }
+.text-amber-900\/75   { color: color-mix(in srgb, #78350f 75%, transparent); }
+.text-amber-950\/75   { color: color-mix(in srgb, #451a03 75%, transparent); }
+.text-yellow-50\/75   { color: color-mix(in srgb, #fefce8 75%, transparent); }
+.text-yellow-100\/75  { color: color-mix(in srgb, #fef9c3 75%, transparent); }
+.text-yellow-200\/75  { color: color-mix(in srgb, #fef08a 75%, transparent); }
+.text-yellow-300\/75  { color: color-mix(in srgb, #fde047 75%, transparent); }
+.text-yellow-400\/75  { color: color-mix(in srgb, #facc15 75%, transparent); }
+.text-yellow-500\/75  { color: color-mix(in srgb, #eab308 75%, transparent); }
+.text-yellow-600\/75  { color: color-mix(in srgb, #ca8a04 75%, transparent); }
+.text-yellow-700\/75  { color: color-mix(in srgb, #a16207 75%, transparent); }
+.text-yellow-800\/75  { color: color-mix(in srgb, #854d0e 75%, transparent); }
+.text-yellow-900\/75  { color: color-mix(in srgb, #713f12 75%, transparent); }
+.text-yellow-950\/75  { color: color-mix(in srgb, #422006 75%, transparent); }
+.text-lime-50\/75     { color: color-mix(in srgb, #f7fee7 75%, transparent); }
+.text-lime-100\/75    { color: color-mix(in srgb, #ecfccb 75%, transparent); }
+.text-lime-200\/75    { color: color-mix(in srgb, #d9f99d 75%, transparent); }
+.text-lime-300\/75    { color: color-mix(in srgb, #bef264 75%, transparent); }
+.text-lime-400\/75    { color: color-mix(in srgb, #a3e635 75%, transparent); }
+.text-lime-500\/75    { color: color-mix(in srgb, #84cc16 75%, transparent); }
+.text-lime-600\/75    { color: color-mix(in srgb, #65a30d 75%, transparent); }
+.text-lime-700\/75    { color: color-mix(in srgb, #4d7c0f 75%, transparent); }
+.text-lime-800\/75    { color: color-mix(in srgb, #3f6212 75%, transparent); }
+.text-lime-900\/75    { color: color-mix(in srgb, #365314 75%, transparent); }
+.text-lime-950\/75    { color: color-mix(in srgb, #1a2e05 75%, transparent); }
+.text-green-50\/75    { color: color-mix(in srgb, #f0fdf4 75%, transparent); }
+.text-green-100\/75   { color: color-mix(in srgb, #dcfce7 75%, transparent); }
+.text-green-200\/75   { color: color-mix(in srgb, #bbf7d0 75%, transparent); }
+.text-green-300\/75   { color: color-mix(in srgb, #86efac 75%, transparent); }
+.text-green-400\/75   { color: color-mix(in srgb, #4ade80 75%, transparent); }
+.text-green-500\/75   { color: color-mix(in srgb, #22c55e 75%, transparent); }
+.text-green-600\/75   { color: color-mix(in srgb, #16a34a 75%, transparent); }
+.text-green-700\/75   { color: color-mix(in srgb, #15803d 75%, transparent); }
+.text-green-800\/75   { color: color-mix(in srgb, #166534 75%, transparent); }
+.text-green-900\/75   { color: color-mix(in srgb, #14532d 75%, transparent); }
+.text-green-950\/75   { color: color-mix(in srgb, #052e16 75%, transparent); }
+.text-emerald-50\/75  { color: color-mix(in srgb, #ecfdf5 75%, transparent); }
+.text-emerald-100\/75 { color: color-mix(in srgb, #d1fae5 75%, transparent); }
+.text-emerald-200\/75 { color: color-mix(in srgb, #a7f3d0 75%, transparent); }
+.text-emerald-300\/75 { color: color-mix(in srgb, #6ee7b7 75%, transparent); }
+.text-emerald-400\/75 { color: color-mix(in srgb, #34d399 75%, transparent); }
+.text-emerald-500\/75 { color: color-mix(in srgb, #10b981 75%, transparent); }
+.text-emerald-600\/75 { color: color-mix(in srgb, #059669 75%, transparent); }
+.text-emerald-700\/75 { color: color-mix(in srgb, #047857 75%, transparent); }
+.text-emerald-800\/75 { color: color-mix(in srgb, #065f46 75%, transparent); }
+.text-emerald-900\/75 { color: color-mix(in srgb, #064e3b 75%, transparent); }
+.text-emerald-950\/75 { color: color-mix(in srgb, #022c22 75%, transparent); }
+.text-teal-50\/75     { color: color-mix(in srgb, #f0fdfa 75%, transparent); }
+.text-teal-100\/75    { color: color-mix(in srgb, #ccfbf1 75%, transparent); }
+.text-teal-200\/75    { color: color-mix(in srgb, #99f6e4 75%, transparent); }
+.text-teal-300\/75    { color: color-mix(in srgb, #5eead4 75%, transparent); }
+.text-teal-400\/75    { color: color-mix(in srgb, #2dd4bf 75%, transparent); }
+.text-teal-500\/75    { color: color-mix(in srgb, #14b8a6 75%, transparent); }
+.text-teal-600\/75    { color: color-mix(in srgb, #0d9488 75%, transparent); }
+.text-teal-700\/75    { color: color-mix(in srgb, #0f766e 75%, transparent); }
+.text-teal-800\/75    { color: color-mix(in srgb, #115e59 75%, transparent); }
+.text-teal-900\/75    { color: color-mix(in srgb, #134e4a 75%, transparent); }
+.text-teal-950\/75    { color: color-mix(in srgb, #042f2e 75%, transparent); }
+.text-cyan-50\/75     { color: color-mix(in srgb, #ecfeff 75%, transparent); }
+.text-cyan-100\/75    { color: color-mix(in srgb, #cffafe 75%, transparent); }
+.text-cyan-200\/75    { color: color-mix(in srgb, #a5f3fc 75%, transparent); }
+.text-cyan-300\/75    { color: color-mix(in srgb, #67e8f9 75%, transparent); }
+.text-cyan-400\/75    { color: color-mix(in srgb, #22d3ee 75%, transparent); }
+.text-cyan-500\/75    { color: color-mix(in srgb, #06b6d4 75%, transparent); }
+.text-cyan-600\/75    { color: color-mix(in srgb, #0891b2 75%, transparent); }
+.text-cyan-700\/75    { color: color-mix(in srgb, #0e7490 75%, transparent); }
+.text-cyan-800\/75    { color: color-mix(in srgb, #155e75 75%, transparent); }
+.text-cyan-900\/75    { color: color-mix(in srgb, #164e63 75%, transparent); }
+.text-cyan-950\/75    { color: color-mix(in srgb, #083344 75%, transparent); }
+.text-sky-50\/75      { color: color-mix(in srgb, #f0f9ff 75%, transparent); }
+.text-sky-100\/75     { color: color-mix(in srgb, #e0f2fe 75%, transparent); }
+.text-sky-200\/75     { color: color-mix(in srgb, #bae6fd 75%, transparent); }
+.text-sky-300\/75     { color: color-mix(in srgb, #7dd3fc 75%, transparent); }
+.text-sky-400\/75     { color: color-mix(in srgb, #38bdf8 75%, transparent); }
+.text-sky-500\/75     { color: color-mix(in srgb, #0ea5e9 75%, transparent); }
+.text-sky-600\/75     { color: color-mix(in srgb, #0284c7 75%, transparent); }
+.text-sky-700\/75     { color: color-mix(in srgb, #0369a1 75%, transparent); }
+.text-sky-800\/75     { color: color-mix(in srgb, #075985 75%, transparent); }
+.text-sky-900\/75     { color: color-mix(in srgb, #0c4a6e 75%, transparent); }
+.text-sky-950\/75     { color: color-mix(in srgb, #082f49 75%, transparent); }
+.text-blue-50\/75     { color: color-mix(in srgb, #eff6ff 75%, transparent); }
+.text-blue-100\/75    { color: color-mix(in srgb, #dbeafe 75%, transparent); }
+.text-blue-200\/75    { color: color-mix(in srgb, #bfdbfe 75%, transparent); }
+.text-blue-300\/75    { color: color-mix(in srgb, #93c5fd 75%, transparent); }
+.text-blue-400\/75    { color: color-mix(in srgb, #60a5fa 75%, transparent); }
+.text-blue-500\/75    { color: color-mix(in srgb, #3b82f6 75%, transparent); }
+.text-blue-600\/75    { color: color-mix(in srgb, #2563eb 75%, transparent); }
+.text-blue-700\/75    { color: color-mix(in srgb, #1d4ed8 75%, transparent); }
+.text-blue-800\/75    { color: color-mix(in srgb, #1e40af 75%, transparent); }
+.text-blue-900\/75    { color: color-mix(in srgb, #1e3a8a 75%, transparent); }
+.text-blue-950\/75    { color: color-mix(in srgb, #172554 75%, transparent); }
+.text-indigo-50\/75   { color: color-mix(in srgb, #eef2ff 75%, transparent); }
+.text-indigo-100\/75  { color: color-mix(in srgb, #e0e7ff 75%, transparent); }
+.text-indigo-200\/75  { color: color-mix(in srgb, #c7d2fe 75%, transparent); }
+.text-indigo-300\/75  { color: color-mix(in srgb, #a5b4fc 75%, transparent); }
+.text-indigo-400\/75  { color: color-mix(in srgb, #818cf8 75%, transparent); }
+.text-indigo-500\/75  { color: color-mix(in srgb, #6366f1 75%, transparent); }
+.text-indigo-600\/75  { color: color-mix(in srgb, #4f46e5 75%, transparent); }
+.text-indigo-700\/75  { color: color-mix(in srgb, #4338ca 75%, transparent); }
+.text-indigo-800\/75  { color: color-mix(in srgb, #3730a3 75%, transparent); }
+.text-indigo-900\/75  { color: color-mix(in srgb, #312e81 75%, transparent); }
+.text-indigo-950\/75  { color: color-mix(in srgb, #1e1b4b 75%, transparent); }
+.text-violet-50\/75   { color: color-mix(in srgb, #f5f3ff 75%, transparent); }
+.text-violet-100\/75  { color: color-mix(in srgb, #ede9fe 75%, transparent); }
+.text-violet-200\/75  { color: color-mix(in srgb, #ddd6fe 75%, transparent); }
+.text-violet-300\/75  { color: color-mix(in srgb, #c4b5fd 75%, transparent); }
+.text-violet-400\/75  { color: color-mix(in srgb, #a78bfa 75%, transparent); }
+.text-violet-500\/75  { color: color-mix(in srgb, #8b5cf6 75%, transparent); }
+.text-violet-600\/75  { color: color-mix(in srgb, #7c3aed 75%, transparent); }
+.text-violet-700\/75  { color: color-mix(in srgb, #6d28d9 75%, transparent); }
+.text-violet-800\/75  { color: color-mix(in srgb, #5b21b6 75%, transparent); }
+.text-violet-900\/75  { color: color-mix(in srgb, #4c1d95 75%, transparent); }
+.text-violet-950\/75  { color: color-mix(in srgb, #2e1065 75%, transparent); }
+.text-purple-50\/75   { color: color-mix(in srgb, #faf5ff 75%, transparent); }
+.text-purple-100\/75  { color: color-mix(in srgb, #f3e8ff 75%, transparent); }
+.text-purple-200\/75  { color: color-mix(in srgb, #e9d5ff 75%, transparent); }
+.text-purple-300\/75  { color: color-mix(in srgb, #d8b4fe 75%, transparent); }
+.text-purple-400\/75  { color: color-mix(in srgb, #c084fc 75%, transparent); }
+.text-purple-500\/75  { color: color-mix(in srgb, #a855f7 75%, transparent); }
+.text-purple-600\/75  { color: color-mix(in srgb, #9333ea 75%, transparent); }
+.text-purple-700\/75  { color: color-mix(in srgb, #7e22ce 75%, transparent); }
+.text-purple-800\/75  { color: color-mix(in srgb, #6b21a8 75%, transparent); }
+.text-purple-900\/75  { color: color-mix(in srgb, #581c87 75%, transparent); }
+.text-purple-950\/75  { color: color-mix(in srgb, #3b0764 75%, transparent); }
+.text-fuchsia-50\/75  { color: color-mix(in srgb, #fdf4ff 75%, transparent); }
+.text-fuchsia-100\/75 { color: color-mix(in srgb, #fae8ff 75%, transparent); }
+.text-fuchsia-200\/75 { color: color-mix(in srgb, #f5d0fe 75%, transparent); }
+.text-fuchsia-300\/75 { color: color-mix(in srgb, #f0abfc 75%, transparent); }
+.text-fuchsia-400\/75 { color: color-mix(in srgb, #e879f9 75%, transparent); }
+.text-fuchsia-500\/75 { color: color-mix(in srgb, #d946ef 75%, transparent); }
+.text-fuchsia-600\/75 { color: color-mix(in srgb, #c026d3 75%, transparent); }
+.text-fuchsia-700\/75 { color: color-mix(in srgb, #a21caf 75%, transparent); }
+.text-fuchsia-800\/75 { color: color-mix(in srgb, #86198f 75%, transparent); }
+.text-fuchsia-900\/75 { color: color-mix(in srgb, #701a75 75%, transparent); }
+.text-fuchsia-950\/75 { color: color-mix(in srgb, #4a044e 75%, transparent); }
+.text-pink-50\/75     { color: color-mix(in srgb, #fdf2f8 75%, transparent); }
+.text-pink-100\/75    { color: color-mix(in srgb, #fce7f3 75%, transparent); }
+.text-pink-200\/75    { color: color-mix(in srgb, #fbcfe8 75%, transparent); }
+.text-pink-300\/75    { color: color-mix(in srgb, #f9a8d4 75%, transparent); }
+.text-pink-400\/75    { color: color-mix(in srgb, #f472b6 75%, transparent); }
+.text-pink-500\/75    { color: color-mix(in srgb, #ec4899 75%, transparent); }
+.text-pink-600\/75    { color: color-mix(in srgb, #db2777 75%, transparent); }
+.text-pink-700\/75    { color: color-mix(in srgb, #be185d 75%, transparent); }
+.text-pink-800\/75    { color: color-mix(in srgb, #9d174d 75%, transparent); }
+.text-pink-900\/75    { color: color-mix(in srgb, #831843 75%, transparent); }
+.text-pink-950\/75    { color: color-mix(in srgb, #500724 75%, transparent); }
+.text-rose-50\/75     { color: color-mix(in srgb, #fff1f2 75%, transparent); }
+.text-rose-100\/75    { color: color-mix(in srgb, #ffe4e6 75%, transparent); }
+.text-rose-200\/75    { color: color-mix(in srgb, #fecdd3 75%, transparent); }
+.text-rose-300\/75    { color: color-mix(in srgb, #fda4af 75%, transparent); }
+.text-rose-400\/75    { color: color-mix(in srgb, #fb7185 75%, transparent); }
+.text-rose-500\/75    { color: color-mix(in srgb, #f43f5e 75%, transparent); }
+.text-rose-600\/75    { color: color-mix(in srgb, #e11d48 75%, transparent); }
+.text-rose-700\/75    { color: color-mix(in srgb, #be123c 75%, transparent); }
+.text-rose-800\/75    { color: color-mix(in srgb, #9f1239 75%, transparent); }
+.text-rose-900\/75    { color: color-mix(in srgb, #881337 75%, transparent); }
+.text-rose-950\/75    { color: color-mix(in srgb, #4c0519 75%, transparent); }
+.text-mauve-50\/75    { color: color-mix(in srgb, #fafafa 75%, transparent); }
+.text-mauve-100\/75   { color: color-mix(in srgb, #f3f1f3 75%, transparent); }
+.text-mauve-200\/75   { color: color-mix(in srgb, #e7e4e7 75%, transparent); }
+.text-mauve-300\/75   { color: color-mix(in srgb, #d7d0d7 75%, transparent); }
+.text-mauve-400\/75   { color: color-mix(in srgb, #a89ea9 75%, transparent); }
+.text-mauve-500\/75   { color: color-mix(in srgb, #79697b 75%, transparent); }
+.text-mauve-600\/75   { color: color-mix(in srgb, #594c5b 75%, transparent); }
+.text-mauve-700\/75   { color: color-mix(in srgb, #463947 75%, transparent); }
+.text-mauve-800\/75   { color: color-mix(in srgb, #2a212c 75%, transparent); }
+.text-mauve-900\/75   { color: color-mix(in srgb, #1d161e 75%, transparent); }
+.text-mauve-950\/75   { color: color-mix(in srgb, #0c090c 75%, transparent); }
+.text-olive-50\/75    { color: color-mix(in srgb, #fbfbf9 75%, transparent); }
+.text-olive-100\/75   { color: color-mix(in srgb, #f4f4f0 75%, transparent); }
+.text-olive-200\/75   { color: color-mix(in srgb, #e8e8e3 75%, transparent); }
+.text-olive-300\/75   { color: color-mix(in srgb, #d8d8d0 75%, transparent); }
+.text-olive-400\/75   { color: color-mix(in srgb, #abab9c 75%, transparent); }
+.text-olive-500\/75   { color: color-mix(in srgb, #7c7c67 75%, transparent); }
+.text-olive-600\/75   { color: color-mix(in srgb, #5b5b4b 75%, transparent); }
+.text-olive-700\/75   { color: color-mix(in srgb, #474739 75%, transparent); }
+.text-olive-800\/75   { color: color-mix(in srgb, #2b2b22 75%, transparent); }
+.text-olive-900\/75   { color: color-mix(in srgb, #1d1d16 75%, transparent); }
+.text-olive-950\/75   { color: color-mix(in srgb, #0c0c09 75%, transparent); }
+.text-mist-50\/75     { color: color-mix(in srgb, #f9fbfb 75%, transparent); }
+.text-mist-100\/75    { color: color-mix(in srgb, #f1f3f3 75%, transparent); }
+.text-mist-200\/75    { color: color-mix(in srgb, #e3e7e8 75%, transparent); }
+.text-mist-300\/75    { color: color-mix(in srgb, #d0d6d8 75%, transparent); }
+.text-mist-400\/75    { color: color-mix(in srgb, #9ca8ab 75%, transparent); }
+.text-mist-500\/75    { color: color-mix(in srgb, #67787c 75%, transparent); }
+.text-mist-600\/75    { color: color-mix(in srgb, #4b585b 75%, transparent); }
+.text-mist-700\/75    { color: color-mix(in srgb, #394447 75%, transparent); }
+.text-mist-800\/75    { color: color-mix(in srgb, #22292b 75%, transparent); }
+.text-mist-900\/75    { color: color-mix(in srgb, #161b1d 75%, transparent); }
+.text-mist-950\/75    { color: color-mix(in srgb, #090b0c 75%, transparent); }
+.text-taupe-50\/75    { color: color-mix(in srgb, #fbfaf9 75%, transparent); }
+.text-taupe-100\/75   { color: color-mix(in srgb, #f3f1f1 75%, transparent); }
+.text-taupe-200\/75   { color: color-mix(in srgb, #e8e4e3 75%, transparent); }
+.text-taupe-300\/75   { color: color-mix(in srgb, #d8d2d0 75%, transparent); }
+.text-taupe-400\/75   { color: color-mix(in srgb, #aba09c 75%, transparent); }
+.text-taupe-500\/75   { color: color-mix(in srgb, #7c6d67 75%, transparent); }
+.text-taupe-600\/75   { color: color-mix(in srgb, #5b4f4b 75%, transparent); }
+.text-taupe-700\/75   { color: color-mix(in srgb, #473c39 75%, transparent); }
+.text-taupe-800\/75   { color: color-mix(in srgb, #2b2422 75%, transparent); }
+.text-taupe-900\/75   { color: color-mix(in srgb, #1d1816 75%, transparent); }
+.text-taupe-950\/75   { color: color-mix(in srgb, #0c0a09 75%, transparent); }
+
+/* opacity: 90% */
+.text-transparent\/90 { color: color-mix(in srgb, transparent 90%, transparent); }
+.text-current\/90     { color: color-mix(in srgb, currentColor 90%, transparent); }
+.text-black\/90       { color: color-mix(in srgb, #000000 90%, transparent); }
+.text-white\/90       { color: color-mix(in srgb, #ffffff 90%, transparent); }
+.text-slate-50\/90    { color: color-mix(in srgb, #f8fafc 90%, transparent); }
+.text-slate-100\/90   { color: color-mix(in srgb, #f1f5f9 90%, transparent); }
+.text-slate-200\/90   { color: color-mix(in srgb, #e2e8f0 90%, transparent); }
+.text-slate-300\/90   { color: color-mix(in srgb, #cbd5e1 90%, transparent); }
+.text-slate-400\/90   { color: color-mix(in srgb, #94a3b8 90%, transparent); }
+.text-slate-500\/90   { color: color-mix(in srgb, #64748b 90%, transparent); }
+.text-slate-600\/90   { color: color-mix(in srgb, #475569 90%, transparent); }
+.text-slate-700\/90   { color: color-mix(in srgb, #334155 90%, transparent); }
+.text-slate-800\/90   { color: color-mix(in srgb, #1e293b 90%, transparent); }
+.text-slate-900\/90   { color: color-mix(in srgb, #0f172a 90%, transparent); }
+.text-slate-950\/90   { color: color-mix(in srgb, #020617 90%, transparent); }
+.text-gray-50\/90     { color: color-mix(in srgb, #f9fafb 90%, transparent); }
+.text-gray-100\/90    { color: color-mix(in srgb, #f3f4f6 90%, transparent); }
+.text-gray-200\/90    { color: color-mix(in srgb, #e5e7eb 90%, transparent); }
+.text-gray-300\/90    { color: color-mix(in srgb, #d1d5db 90%, transparent); }
+.text-gray-400\/90    { color: color-mix(in srgb, #9ca3af 90%, transparent); }
+.text-gray-500\/90    { color: color-mix(in srgb, #6b7280 90%, transparent); }
+.text-gray-600\/90    { color: color-mix(in srgb, #4b5563 90%, transparent); }
+.text-gray-700\/90    { color: color-mix(in srgb, #374151 90%, transparent); }
+.text-gray-800\/90    { color: color-mix(in srgb, #1f2937 90%, transparent); }
+.text-gray-900\/90    { color: color-mix(in srgb, #111827 90%, transparent); }
+.text-gray-950\/90    { color: color-mix(in srgb, #030712 90%, transparent); }
+.text-zinc-50\/90     { color: color-mix(in srgb, #fafafa 90%, transparent); }
+.text-zinc-100\/90    { color: color-mix(in srgb, #f4f4f5 90%, transparent); }
+.text-zinc-200\/90    { color: color-mix(in srgb, #e4e4e7 90%, transparent); }
+.text-zinc-300\/90    { color: color-mix(in srgb, #d4d4d8 90%, transparent); }
+.text-zinc-400\/90    { color: color-mix(in srgb, #a1a1aa 90%, transparent); }
+.text-zinc-500\/90    { color: color-mix(in srgb, #71717a 90%, transparent); }
+.text-zinc-600\/90    { color: color-mix(in srgb, #52525b 90%, transparent); }
+.text-zinc-700\/90    { color: color-mix(in srgb, #3f3f46 90%, transparent); }
+.text-zinc-800\/90    { color: color-mix(in srgb, #27272a 90%, transparent); }
+.text-zinc-900\/90    { color: color-mix(in srgb, #18181b 90%, transparent); }
+.text-zinc-950\/90    { color: color-mix(in srgb, #09090b 90%, transparent); }
+.text-neutral-50\/90  { color: color-mix(in srgb, #fafafa 90%, transparent); }
+.text-neutral-100\/90 { color: color-mix(in srgb, #f5f5f5 90%, transparent); }
+.text-neutral-200\/90 { color: color-mix(in srgb, #e5e5e5 90%, transparent); }
+.text-neutral-300\/90 { color: color-mix(in srgb, #d4d4d4 90%, transparent); }
+.text-neutral-400\/90 { color: color-mix(in srgb, #a3a3a3 90%, transparent); }
+.text-neutral-500\/90 { color: color-mix(in srgb, #737373 90%, transparent); }
+.text-neutral-600\/90 { color: color-mix(in srgb, #525252 90%, transparent); }
+.text-neutral-700\/90 { color: color-mix(in srgb, #404040 90%, transparent); }
+.text-neutral-800\/90 { color: color-mix(in srgb, #262626 90%, transparent); }
+.text-neutral-900\/90 { color: color-mix(in srgb, #171717 90%, transparent); }
+.text-neutral-950\/90 { color: color-mix(in srgb, #0a0a0a 90%, transparent); }
+.text-stone-50\/90    { color: color-mix(in srgb, #fafaf9 90%, transparent); }
+.text-stone-100\/90   { color: color-mix(in srgb, #f5f5f4 90%, transparent); }
+.text-stone-200\/90   { color: color-mix(in srgb, #e7e5e4 90%, transparent); }
+.text-stone-300\/90   { color: color-mix(in srgb, #d6d3d1 90%, transparent); }
+.text-stone-400\/90   { color: color-mix(in srgb, #a8a29e 90%, transparent); }
+.text-stone-500\/90   { color: color-mix(in srgb, #78716c 90%, transparent); }
+.text-stone-600\/90   { color: color-mix(in srgb, #57534e 90%, transparent); }
+.text-stone-700\/90   { color: color-mix(in srgb, #44403c 90%, transparent); }
+.text-stone-800\/90   { color: color-mix(in srgb, #292524 90%, transparent); }
+.text-stone-900\/90   { color: color-mix(in srgb, #1c1917 90%, transparent); }
+.text-stone-950\/90   { color: color-mix(in srgb, #0c0a09 90%, transparent); }
+.text-red-50\/90      { color: color-mix(in srgb, #fef2f2 90%, transparent); }
+.text-red-100\/90     { color: color-mix(in srgb, #fee2e2 90%, transparent); }
+.text-red-200\/90     { color: color-mix(in srgb, #fecaca 90%, transparent); }
+.text-red-300\/90     { color: color-mix(in srgb, #fca5a5 90%, transparent); }
+.text-red-400\/90     { color: color-mix(in srgb, #f87171 90%, transparent); }
+.text-red-500\/90     { color: color-mix(in srgb, #ef4444 90%, transparent); }
+.text-red-600\/90     { color: color-mix(in srgb, #dc2626 90%, transparent); }
+.text-red-700\/90     { color: color-mix(in srgb, #b91c1c 90%, transparent); }
+.text-red-800\/90     { color: color-mix(in srgb, #991b1b 90%, transparent); }
+.text-red-900\/90     { color: color-mix(in srgb, #7f1d1d 90%, transparent); }
+.text-red-950\/90     { color: color-mix(in srgb, #450a0a 90%, transparent); }
+.text-orange-50\/90   { color: color-mix(in srgb, #fff7ed 90%, transparent); }
+.text-orange-100\/90  { color: color-mix(in srgb, #ffedd5 90%, transparent); }
+.text-orange-200\/90  { color: color-mix(in srgb, #fed7aa 90%, transparent); }
+.text-orange-300\/90  { color: color-mix(in srgb, #fdba74 90%, transparent); }
+.text-orange-400\/90  { color: color-mix(in srgb, #fb923c 90%, transparent); }
+.text-orange-500\/90  { color: color-mix(in srgb, #f97316 90%, transparent); }
+.text-orange-600\/90  { color: color-mix(in srgb, #ea580c 90%, transparent); }
+.text-orange-700\/90  { color: color-mix(in srgb, #c2410c 90%, transparent); }
+.text-orange-800\/90  { color: color-mix(in srgb, #9a3412 90%, transparent); }
+.text-orange-900\/90  { color: color-mix(in srgb, #7c2d12 90%, transparent); }
+.text-orange-950\/90  { color: color-mix(in srgb, #431407 90%, transparent); }
+.text-amber-50\/90    { color: color-mix(in srgb, #fffbeb 90%, transparent); }
+.text-amber-100\/90   { color: color-mix(in srgb, #fef3c7 90%, transparent); }
+.text-amber-200\/90   { color: color-mix(in srgb, #fde68a 90%, transparent); }
+.text-amber-300\/90   { color: color-mix(in srgb, #fcd34d 90%, transparent); }
+.text-amber-400\/90   { color: color-mix(in srgb, #fbbf24 90%, transparent); }
+.text-amber-500\/90   { color: color-mix(in srgb, #f59e0b 90%, transparent); }
+.text-amber-600\/90   { color: color-mix(in srgb, #d97706 90%, transparent); }
+.text-amber-700\/90   { color: color-mix(in srgb, #b45309 90%, transparent); }
+.text-amber-800\/90   { color: color-mix(in srgb, #92400e 90%, transparent); }
+.text-amber-900\/90   { color: color-mix(in srgb, #78350f 90%, transparent); }
+.text-amber-950\/90   { color: color-mix(in srgb, #451a03 90%, transparent); }
+.text-yellow-50\/90   { color: color-mix(in srgb, #fefce8 90%, transparent); }
+.text-yellow-100\/90  { color: color-mix(in srgb, #fef9c3 90%, transparent); }
+.text-yellow-200\/90  { color: color-mix(in srgb, #fef08a 90%, transparent); }
+.text-yellow-300\/90  { color: color-mix(in srgb, #fde047 90%, transparent); }
+.text-yellow-400\/90  { color: color-mix(in srgb, #facc15 90%, transparent); }
+.text-yellow-500\/90  { color: color-mix(in srgb, #eab308 90%, transparent); }
+.text-yellow-600\/90  { color: color-mix(in srgb, #ca8a04 90%, transparent); }
+.text-yellow-700\/90  { color: color-mix(in srgb, #a16207 90%, transparent); }
+.text-yellow-800\/90  { color: color-mix(in srgb, #854d0e 90%, transparent); }
+.text-yellow-900\/90  { color: color-mix(in srgb, #713f12 90%, transparent); }
+.text-yellow-950\/90  { color: color-mix(in srgb, #422006 90%, transparent); }
+.text-lime-50\/90     { color: color-mix(in srgb, #f7fee7 90%, transparent); }
+.text-lime-100\/90    { color: color-mix(in srgb, #ecfccb 90%, transparent); }
+.text-lime-200\/90    { color: color-mix(in srgb, #d9f99d 90%, transparent); }
+.text-lime-300\/90    { color: color-mix(in srgb, #bef264 90%, transparent); }
+.text-lime-400\/90    { color: color-mix(in srgb, #a3e635 90%, transparent); }
+.text-lime-500\/90    { color: color-mix(in srgb, #84cc16 90%, transparent); }
+.text-lime-600\/90    { color: color-mix(in srgb, #65a30d 90%, transparent); }
+.text-lime-700\/90    { color: color-mix(in srgb, #4d7c0f 90%, transparent); }
+.text-lime-800\/90    { color: color-mix(in srgb, #3f6212 90%, transparent); }
+.text-lime-900\/90    { color: color-mix(in srgb, #365314 90%, transparent); }
+.text-lime-950\/90    { color: color-mix(in srgb, #1a2e05 90%, transparent); }
+.text-green-50\/90    { color: color-mix(in srgb, #f0fdf4 90%, transparent); }
+.text-green-100\/90   { color: color-mix(in srgb, #dcfce7 90%, transparent); }
+.text-green-200\/90   { color: color-mix(in srgb, #bbf7d0 90%, transparent); }
+.text-green-300\/90   { color: color-mix(in srgb, #86efac 90%, transparent); }
+.text-green-400\/90   { color: color-mix(in srgb, #4ade80 90%, transparent); }
+.text-green-500\/90   { color: color-mix(in srgb, #22c55e 90%, transparent); }
+.text-green-600\/90   { color: color-mix(in srgb, #16a34a 90%, transparent); }
+.text-green-700\/90   { color: color-mix(in srgb, #15803d 90%, transparent); }
+.text-green-800\/90   { color: color-mix(in srgb, #166534 90%, transparent); }
+.text-green-900\/90   { color: color-mix(in srgb, #14532d 90%, transparent); }
+.text-green-950\/90   { color: color-mix(in srgb, #052e16 90%, transparent); }
+.text-emerald-50\/90  { color: color-mix(in srgb, #ecfdf5 90%, transparent); }
+.text-emerald-100\/90 { color: color-mix(in srgb, #d1fae5 90%, transparent); }
+.text-emerald-200\/90 { color: color-mix(in srgb, #a7f3d0 90%, transparent); }
+.text-emerald-300\/90 { color: color-mix(in srgb, #6ee7b7 90%, transparent); }
+.text-emerald-400\/90 { color: color-mix(in srgb, #34d399 90%, transparent); }
+.text-emerald-500\/90 { color: color-mix(in srgb, #10b981 90%, transparent); }
+.text-emerald-600\/90 { color: color-mix(in srgb, #059669 90%, transparent); }
+.text-emerald-700\/90 { color: color-mix(in srgb, #047857 90%, transparent); }
+.text-emerald-800\/90 { color: color-mix(in srgb, #065f46 90%, transparent); }
+.text-emerald-900\/90 { color: color-mix(in srgb, #064e3b 90%, transparent); }
+.text-emerald-950\/90 { color: color-mix(in srgb, #022c22 90%, transparent); }
+.text-teal-50\/90     { color: color-mix(in srgb, #f0fdfa 90%, transparent); }
+.text-teal-100\/90    { color: color-mix(in srgb, #ccfbf1 90%, transparent); }
+.text-teal-200\/90    { color: color-mix(in srgb, #99f6e4 90%, transparent); }
+.text-teal-300\/90    { color: color-mix(in srgb, #5eead4 90%, transparent); }
+.text-teal-400\/90    { color: color-mix(in srgb, #2dd4bf 90%, transparent); }
+.text-teal-500\/90    { color: color-mix(in srgb, #14b8a6 90%, transparent); }
+.text-teal-600\/90    { color: color-mix(in srgb, #0d9488 90%, transparent); }
+.text-teal-700\/90    { color: color-mix(in srgb, #0f766e 90%, transparent); }
+.text-teal-800\/90    { color: color-mix(in srgb, #115e59 90%, transparent); }
+.text-teal-900\/90    { color: color-mix(in srgb, #134e4a 90%, transparent); }
+.text-teal-950\/90    { color: color-mix(in srgb, #042f2e 90%, transparent); }
+.text-cyan-50\/90     { color: color-mix(in srgb, #ecfeff 90%, transparent); }
+.text-cyan-100\/90    { color: color-mix(in srgb, #cffafe 90%, transparent); }
+.text-cyan-200\/90    { color: color-mix(in srgb, #a5f3fc 90%, transparent); }
+.text-cyan-300\/90    { color: color-mix(in srgb, #67e8f9 90%, transparent); }
+.text-cyan-400\/90    { color: color-mix(in srgb, #22d3ee 90%, transparent); }
+.text-cyan-500\/90    { color: color-mix(in srgb, #06b6d4 90%, transparent); }
+.text-cyan-600\/90    { color: color-mix(in srgb, #0891b2 90%, transparent); }
+.text-cyan-700\/90    { color: color-mix(in srgb, #0e7490 90%, transparent); }
+.text-cyan-800\/90    { color: color-mix(in srgb, #155e75 90%, transparent); }
+.text-cyan-900\/90    { color: color-mix(in srgb, #164e63 90%, transparent); }
+.text-cyan-950\/90    { color: color-mix(in srgb, #083344 90%, transparent); }
+.text-sky-50\/90      { color: color-mix(in srgb, #f0f9ff 90%, transparent); }
+.text-sky-100\/90     { color: color-mix(in srgb, #e0f2fe 90%, transparent); }
+.text-sky-200\/90     { color: color-mix(in srgb, #bae6fd 90%, transparent); }
+.text-sky-300\/90     { color: color-mix(in srgb, #7dd3fc 90%, transparent); }
+.text-sky-400\/90     { color: color-mix(in srgb, #38bdf8 90%, transparent); }
+.text-sky-500\/90     { color: color-mix(in srgb, #0ea5e9 90%, transparent); }
+.text-sky-600\/90     { color: color-mix(in srgb, #0284c7 90%, transparent); }
+.text-sky-700\/90     { color: color-mix(in srgb, #0369a1 90%, transparent); }
+.text-sky-800\/90     { color: color-mix(in srgb, #075985 90%, transparent); }
+.text-sky-900\/90     { color: color-mix(in srgb, #0c4a6e 90%, transparent); }
+.text-sky-950\/90     { color: color-mix(in srgb, #082f49 90%, transparent); }
+.text-blue-50\/90     { color: color-mix(in srgb, #eff6ff 90%, transparent); }
+.text-blue-100\/90    { color: color-mix(in srgb, #dbeafe 90%, transparent); }
+.text-blue-200\/90    { color: color-mix(in srgb, #bfdbfe 90%, transparent); }
+.text-blue-300\/90    { color: color-mix(in srgb, #93c5fd 90%, transparent); }
+.text-blue-400\/90    { color: color-mix(in srgb, #60a5fa 90%, transparent); }
+.text-blue-500\/90    { color: color-mix(in srgb, #3b82f6 90%, transparent); }
+.text-blue-600\/90    { color: color-mix(in srgb, #2563eb 90%, transparent); }
+.text-blue-700\/90    { color: color-mix(in srgb, #1d4ed8 90%, transparent); }
+.text-blue-800\/90    { color: color-mix(in srgb, #1e40af 90%, transparent); }
+.text-blue-900\/90    { color: color-mix(in srgb, #1e3a8a 90%, transparent); }
+.text-blue-950\/90    { color: color-mix(in srgb, #172554 90%, transparent); }
+.text-indigo-50\/90   { color: color-mix(in srgb, #eef2ff 90%, transparent); }
+.text-indigo-100\/90  { color: color-mix(in srgb, #e0e7ff 90%, transparent); }
+.text-indigo-200\/90  { color: color-mix(in srgb, #c7d2fe 90%, transparent); }
+.text-indigo-300\/90  { color: color-mix(in srgb, #a5b4fc 90%, transparent); }
+.text-indigo-400\/90  { color: color-mix(in srgb, #818cf8 90%, transparent); }
+.text-indigo-500\/90  { color: color-mix(in srgb, #6366f1 90%, transparent); }
+.text-indigo-600\/90  { color: color-mix(in srgb, #4f46e5 90%, transparent); }
+.text-indigo-700\/90  { color: color-mix(in srgb, #4338ca 90%, transparent); }
+.text-indigo-800\/90  { color: color-mix(in srgb, #3730a3 90%, transparent); }
+.text-indigo-900\/90  { color: color-mix(in srgb, #312e81 90%, transparent); }
+.text-indigo-950\/90  { color: color-mix(in srgb, #1e1b4b 90%, transparent); }
+.text-violet-50\/90   { color: color-mix(in srgb, #f5f3ff 90%, transparent); }
+.text-violet-100\/90  { color: color-mix(in srgb, #ede9fe 90%, transparent); }
+.text-violet-200\/90  { color: color-mix(in srgb, #ddd6fe 90%, transparent); }
+.text-violet-300\/90  { color: color-mix(in srgb, #c4b5fd 90%, transparent); }
+.text-violet-400\/90  { color: color-mix(in srgb, #a78bfa 90%, transparent); }
+.text-violet-500\/90  { color: color-mix(in srgb, #8b5cf6 90%, transparent); }
+.text-violet-600\/90  { color: color-mix(in srgb, #7c3aed 90%, transparent); }
+.text-violet-700\/90  { color: color-mix(in srgb, #6d28d9 90%, transparent); }
+.text-violet-800\/90  { color: color-mix(in srgb, #5b21b6 90%, transparent); }
+.text-violet-900\/90  { color: color-mix(in srgb, #4c1d95 90%, transparent); }
+.text-violet-950\/90  { color: color-mix(in srgb, #2e1065 90%, transparent); }
+.text-purple-50\/90   { color: color-mix(in srgb, #faf5ff 90%, transparent); }
+.text-purple-100\/90  { color: color-mix(in srgb, #f3e8ff 90%, transparent); }
+.text-purple-200\/90  { color: color-mix(in srgb, #e9d5ff 90%, transparent); }
+.text-purple-300\/90  { color: color-mix(in srgb, #d8b4fe 90%, transparent); }
+.text-purple-400\/90  { color: color-mix(in srgb, #c084fc 90%, transparent); }
+.text-purple-500\/90  { color: color-mix(in srgb, #a855f7 90%, transparent); }
+.text-purple-600\/90  { color: color-mix(in srgb, #9333ea 90%, transparent); }
+.text-purple-700\/90  { color: color-mix(in srgb, #7e22ce 90%, transparent); }
+.text-purple-800\/90  { color: color-mix(in srgb, #6b21a8 90%, transparent); }
+.text-purple-900\/90  { color: color-mix(in srgb, #581c87 90%, transparent); }
+.text-purple-950\/90  { color: color-mix(in srgb, #3b0764 90%, transparent); }
+.text-fuchsia-50\/90  { color: color-mix(in srgb, #fdf4ff 90%, transparent); }
+.text-fuchsia-100\/90 { color: color-mix(in srgb, #fae8ff 90%, transparent); }
+.text-fuchsia-200\/90 { color: color-mix(in srgb, #f5d0fe 90%, transparent); }
+.text-fuchsia-300\/90 { color: color-mix(in srgb, #f0abfc 90%, transparent); }
+.text-fuchsia-400\/90 { color: color-mix(in srgb, #e879f9 90%, transparent); }
+.text-fuchsia-500\/90 { color: color-mix(in srgb, #d946ef 90%, transparent); }
+.text-fuchsia-600\/90 { color: color-mix(in srgb, #c026d3 90%, transparent); }
+.text-fuchsia-700\/90 { color: color-mix(in srgb, #a21caf 90%, transparent); }
+.text-fuchsia-800\/90 { color: color-mix(in srgb, #86198f 90%, transparent); }
+.text-fuchsia-900\/90 { color: color-mix(in srgb, #701a75 90%, transparent); }
+.text-fuchsia-950\/90 { color: color-mix(in srgb, #4a044e 90%, transparent); }
+.text-pink-50\/90     { color: color-mix(in srgb, #fdf2f8 90%, transparent); }
+.text-pink-100\/90    { color: color-mix(in srgb, #fce7f3 90%, transparent); }
+.text-pink-200\/90    { color: color-mix(in srgb, #fbcfe8 90%, transparent); }
+.text-pink-300\/90    { color: color-mix(in srgb, #f9a8d4 90%, transparent); }
+.text-pink-400\/90    { color: color-mix(in srgb, #f472b6 90%, transparent); }
+.text-pink-500\/90    { color: color-mix(in srgb, #ec4899 90%, transparent); }
+.text-pink-600\/90    { color: color-mix(in srgb, #db2777 90%, transparent); }
+.text-pink-700\/90    { color: color-mix(in srgb, #be185d 90%, transparent); }
+.text-pink-800\/90    { color: color-mix(in srgb, #9d174d 90%, transparent); }
+.text-pink-900\/90    { color: color-mix(in srgb, #831843 90%, transparent); }
+.text-pink-950\/90    { color: color-mix(in srgb, #500724 90%, transparent); }
+.text-rose-50\/90     { color: color-mix(in srgb, #fff1f2 90%, transparent); }
+.text-rose-100\/90    { color: color-mix(in srgb, #ffe4e6 90%, transparent); }
+.text-rose-200\/90    { color: color-mix(in srgb, #fecdd3 90%, transparent); }
+.text-rose-300\/90    { color: color-mix(in srgb, #fda4af 90%, transparent); }
+.text-rose-400\/90    { color: color-mix(in srgb, #fb7185 90%, transparent); }
+.text-rose-500\/90    { color: color-mix(in srgb, #f43f5e 90%, transparent); }
+.text-rose-600\/90    { color: color-mix(in srgb, #e11d48 90%, transparent); }
+.text-rose-700\/90    { color: color-mix(in srgb, #be123c 90%, transparent); }
+.text-rose-800\/90    { color: color-mix(in srgb, #9f1239 90%, transparent); }
+.text-rose-900\/90    { color: color-mix(in srgb, #881337 90%, transparent); }
+.text-rose-950\/90    { color: color-mix(in srgb, #4c0519 90%, transparent); }
+.text-mauve-50\/90    { color: color-mix(in srgb, #fafafa 90%, transparent); }
+.text-mauve-100\/90   { color: color-mix(in srgb, #f3f1f3 90%, transparent); }
+.text-mauve-200\/90   { color: color-mix(in srgb, #e7e4e7 90%, transparent); }
+.text-mauve-300\/90   { color: color-mix(in srgb, #d7d0d7 90%, transparent); }
+.text-mauve-400\/90   { color: color-mix(in srgb, #a89ea9 90%, transparent); }
+.text-mauve-500\/90   { color: color-mix(in srgb, #79697b 90%, transparent); }
+.text-mauve-600\/90   { color: color-mix(in srgb, #594c5b 90%, transparent); }
+.text-mauve-700\/90   { color: color-mix(in srgb, #463947 90%, transparent); }
+.text-mauve-800\/90   { color: color-mix(in srgb, #2a212c 90%, transparent); }
+.text-mauve-900\/90   { color: color-mix(in srgb, #1d161e 90%, transparent); }
+.text-mauve-950\/90   { color: color-mix(in srgb, #0c090c 90%, transparent); }
+.text-olive-50\/90    { color: color-mix(in srgb, #fbfbf9 90%, transparent); }
+.text-olive-100\/90   { color: color-mix(in srgb, #f4f4f0 90%, transparent); }
+.text-olive-200\/90   { color: color-mix(in srgb, #e8e8e3 90%, transparent); }
+.text-olive-300\/90   { color: color-mix(in srgb, #d8d8d0 90%, transparent); }
+.text-olive-400\/90   { color: color-mix(in srgb, #abab9c 90%, transparent); }
+.text-olive-500\/90   { color: color-mix(in srgb, #7c7c67 90%, transparent); }
+.text-olive-600\/90   { color: color-mix(in srgb, #5b5b4b 90%, transparent); }
+.text-olive-700\/90   { color: color-mix(in srgb, #474739 90%, transparent); }
+.text-olive-800\/90   { color: color-mix(in srgb, #2b2b22 90%, transparent); }
+.text-olive-900\/90   { color: color-mix(in srgb, #1d1d16 90%, transparent); }
+.text-olive-950\/90   { color: color-mix(in srgb, #0c0c09 90%, transparent); }
+.text-mist-50\/90     { color: color-mix(in srgb, #f9fbfb 90%, transparent); }
+.text-mist-100\/90    { color: color-mix(in srgb, #f1f3f3 90%, transparent); }
+.text-mist-200\/90    { color: color-mix(in srgb, #e3e7e8 90%, transparent); }
+.text-mist-300\/90    { color: color-mix(in srgb, #d0d6d8 90%, transparent); }
+.text-mist-400\/90    { color: color-mix(in srgb, #9ca8ab 90%, transparent); }
+.text-mist-500\/90    { color: color-mix(in srgb, #67787c 90%, transparent); }
+.text-mist-600\/90    { color: color-mix(in srgb, #4b585b 90%, transparent); }
+.text-mist-700\/90    { color: color-mix(in srgb, #394447 90%, transparent); }
+.text-mist-800\/90    { color: color-mix(in srgb, #22292b 90%, transparent); }
+.text-mist-900\/90    { color: color-mix(in srgb, #161b1d 90%, transparent); }
+.text-mist-950\/90    { color: color-mix(in srgb, #090b0c 90%, transparent); }
+.text-taupe-50\/90    { color: color-mix(in srgb, #fbfaf9 90%, transparent); }
+.text-taupe-100\/90   { color: color-mix(in srgb, #f3f1f1 90%, transparent); }
+.text-taupe-200\/90   { color: color-mix(in srgb, #e8e4e3 90%, transparent); }
+.text-taupe-300\/90   { color: color-mix(in srgb, #d8d2d0 90%, transparent); }
+.text-taupe-400\/90   { color: color-mix(in srgb, #aba09c 90%, transparent); }
+.text-taupe-500\/90   { color: color-mix(in srgb, #7c6d67 90%, transparent); }
+.text-taupe-600\/90   { color: color-mix(in srgb, #5b4f4b 90%, transparent); }
+.text-taupe-700\/90   { color: color-mix(in srgb, #473c39 90%, transparent); }
+.text-taupe-800\/90   { color: color-mix(in srgb, #2b2422 90%, transparent); }
+.text-taupe-900\/90   { color: color-mix(in srgb, #1d1816 90%, transparent); }
+.text-taupe-950\/90   { color: color-mix(in srgb, #0c0a09 90%, transparent); }
