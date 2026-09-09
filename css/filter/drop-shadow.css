@@ -1,0 +1,9 @@
+/* Drop-shadow filter utilities  */
+
+.drop-shadow-xs    { filter: drop-shadow(0 1px 1px rgb(0 0 0 / 0.05)); }
+.drop-shadow-sm    { filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.15)); }
+.drop-shadow-md    { filter: drop-shadow(0 3px 3px rgb(0 0 0 / 0.12)); }
+.drop-shadow-lg    { filter: drop-shadow(0 4px 4px rgb(0 0 0 / 0.15)); }
+.drop-shadow-xl    { filter: drop-shadow(0 9px 7px rgb(0 0 0 / 0.1)); }
+.drop-shadow-2xl   { filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15)); }
+.drop-shadow-none  { filter: drop-shadow(0 0 #0000); }

@@ -1,0 +1,4 @@
+/*Hide the element visually but keep its layout space*/
+.invisible {
+    visibility: hidden;
+}

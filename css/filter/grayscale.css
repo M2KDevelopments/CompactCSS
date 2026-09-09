@@ -1,0 +1,8 @@
+/* Grayscale filter utilities  */
+
+.grayscale-0    { filter: grayscale(0%); }
+.grayscale-25   { filter: grayscale(25%); }
+.grayscale-50   { filter: grayscale(50%); }
+.grayscale-75   { filter: grayscale(75%); }
+.grayscale-100  { filter: grayscale(100%); }
+.grayscale      { filter: grayscale(100%); }

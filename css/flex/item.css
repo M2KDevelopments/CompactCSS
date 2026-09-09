@@ -1,0 +1,21 @@
+/* Item utilities  — per-item alignment overrides */
+
+/* align-self */
+.self-auto           { align-self: auto; }
+.self-start          { align-self: flex-start; }
+.self-end            { align-self: flex-end; }
+.self-center         { align-self: center; }
+.self-end-safe       { align-self: safe flex-end; }
+.self-center-safe    { align-self: safe center; }
+.self-stretch        { align-self: stretch; }
+.self-baseline       { align-self: baseline; }
+.self-baseline-last  { align-self: last baseline; }
+
+/* justify-self */
+.justify-self-auto        { justify-self: auto; }
+.justify-self-start       { justify-self: flex-start; }
+.justify-self-end         { justify-self: flex-end; }
+.justify-self-center      { justify-self: center; }
+.justify-self-end-safe    { justify-self: safe flex-end; }
+.justify-self-center-safe { justify-self: safe center; }
+.justify-self-stretch     { justify-self: stretch; }

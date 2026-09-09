@@ -1,0 +1,24 @@
+/* Align utilities  — cross-axis alignment for the container */
+
+/* align-content */
+.content-normal      { align-content: normal; }
+.content-center      { align-content: center; }
+.content-start       { align-content: flex-start; }
+.content-end         { align-content: flex-end; }
+.content-center-safe { align-content: safe center; }
+.content-end-safe    { align-content: safe flex-end; }
+.content-between     { align-content: space-between; }
+.content-around      { align-content: space-around; }
+.content-evenly      { align-content: space-evenly; }
+.content-baseline    { align-content: baseline; }
+.content-stretch     { align-content: stretch; }
+
+/* align-items */
+.items-center        { align-items: center; }
+.items-start         { align-items: flex-start; }
+.items-end           { align-items: flex-end; }
+.items-center-safe   { align-items: safe center; }
+.items-end-safe      { align-items: safe flex-end; }
+.items-baseline      { align-items: baseline; }
+.items-baseline-last { align-items: last baseline; }
+.items-stretch       { align-items: stretch; }

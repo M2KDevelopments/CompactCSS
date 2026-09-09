@@ -1,0 +1,13 @@
+/* Brightness filter utilities  */
+
+.brightness-0    { filter: brightness(0%); }
+.brightness-50   { filter: brightness(50%); }
+.brightness-75   { filter: brightness(75%); }
+.brightness-90   { filter: brightness(90%); }
+.brightness-95   { filter: brightness(95%); }
+.brightness-100  { filter: brightness(100%); }
+.brightness-105  { filter: brightness(105%); }
+.brightness-110  { filter: brightness(110%); }
+.brightness-125  { filter: brightness(125%); }
+.brightness-150  { filter: brightness(150%); }
+.brightness-200  { filter: brightness(200%); }

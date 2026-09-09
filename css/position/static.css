@@ -1,0 +1,4 @@
+/*Make the element have static positioning*/
+.static {
+    position: static;
+}
