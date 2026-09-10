@@ -52,12 +52,3 @@ Utility classes for:
 - Misc: `animation`, `duration`, `gap`, UI helpers (`glass`, `bubble`)
 
 See [`ref/colors.md`](ref/colors.md) for the full color palette reference and [`ref/sizes.md`](ref/sizes.md) for the named size scales (`xs`/`sm`/`md`/`lg`/`xl`…) used across these utilities.
-
-## Build
-
-This project uses [lightningcss](https://lightningcss.dev/) to bundle the individual utility stylesheets:
-
-```bash
-npm install
-npm run build
-```
