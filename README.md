@@ -51,7 +51,7 @@ Utility classes for:
 - Interactivity: `hover`, `cursor`, `pointer-events`, `scrollbar`
 - Misc: `animation`, `duration`, `gap`, UI helpers (`glass`, `bubble`)
 
-See [`colors.md`](colors.md) for the full color palette reference used across these utilities.
+See [`ref/colors.md`](ref/colors.md) for the full color palette reference and [`ref/sizes.md`](ref/sizes.md) for the named size scales (`xs`/`sm`/`md`/`lg`/`xl`…) used across these utilities.
 
 ## Build
 
