@@ -13,7 +13,7 @@ A Tailwind CSS inspired utility library. Get the same useful utility classes you
 The quickest way to use Compact CSS is via the CDN — link the pre-built, minified stylesheet directly, no download or build step required:
 
 ```html
-<link rel="stylesheet" href="https://compactcss.online/dist/compact.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/compactcss@1.0.0/dist/compact.min.css">
 
 <div class="p-4 text-blue-500 rounded-lg">Hello, Compact CSS</div>
 ```
