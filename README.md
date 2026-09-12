@@ -4,7 +4,7 @@
 ![Static Badge](https://img.shields.io/badge/buy_me_a_coffee-yellow?style=plastic&logo=buymeacoffee&logoColor=yellow&label=support&link=https%3A%2F%2Fwww.buymeacoffee.com%2Fm2kdevelopments)
 ![Static Badge](https://img.shields.io/badge/paypal-blue?style=plastic&logo=paypal&logoColor=blue&label=support&link=https%3A%2F%2Fpaypal.me%2Fm2kdevelopment)
 
-<img src="./dark.png" alt="Logo" />
+<img src="./light.png" alt="Logo" />
 
 A Tailwind CSS inspired utility library. Get the same useful utility classes you already know, without a build step, config file, or complicated setup process — just link the stylesheets you need and start writing classes.
 
