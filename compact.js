@@ -3,18 +3,29 @@ import fs from 'fs/promises';
 // Bundle CSS Files together
 (async () => {
 
-	let minCss = '';
+  let minCss = '';
+   let eventsCss = '';
+  function getEvents(css) {
+    // @keyframes bodies aren't class rules and don't need state variants
+    const withoutKeyframes = css.replace(/@keyframes\s+[\w-]+\s*\{(?:[^{}]*\{[^{}]*\})*[^{}]*\}/g, '');
+
+    return ['hover', 'focus', 'active'].map(function (variant) {
+      return withoutKeyframes.replace(/\.([a-zA-Z][\w-]*)\s*\{([^{}]*)\}/g, function (match, className, body) {
+        return `.${variant}\\:${className}:${variant}{${body}}`;
+      });
+    }).join('');
+  }
 
 	// remove built css
 	try{
 		await fs.unlink("dist/compact.min.css");
 	}catch(e){}
- 
+
 	// remove folder
 	try{
 		await fs.rmdir('dist');
 	}catch(e){}
-	
+
 
 	// make dist folder
 	await fs.mkdir('dist');
@@ -26,27 +37,25 @@ import fs from 'fs/promises';
 
 			// get css styles
 			const css = await fs.readFile(`./css/${f}`, 'utf-8');
-			minCss += css.replace(/\s|\n/gm, '');
+      minCss += css.replace(/\s|\n/gm, '');
+      eventsCss+=(css + getEvents(css)).replace(/\s|\n/gm, '');
 		} else { //folder
 			const innerFolders = await fs.readdir(`./css/${f}`);
-			
+
 			// get styles for inner folders
 			for(const cssFileName of innerFolders){
 				if(cssFileName.includes(".css")){
-					const css= await fs.readFile(`./css/${f}/${cssFileName}`, 'utf-8');
-					minCss += css.replace(/\s|\n/gm, '');
+          const css = await fs.readFile(`./css/${f}/${cssFileName}`, 'utf-8');
+          minCss += css.replace(/\s|\n/gm, '');
+          eventsCss+=(css + getEvents(css)).replace(/\s|\n/gm, '');
 				}
 			}
 		}
 	}
 
 	// write css file
-	await fs.writeFile('./dist/compact.min.css', minCss, 'utf-8');
-
-	// copy all css into dist
-	await fs.cp('css', 'dist', { recursive: true });
-	await fs.copyFile('compact.css', 'dist/compact.css');
-
-	minCss='';
+  await fs.writeFile('./dist/compact.min.css', minCss, 'utf-8');
+	await fs.writeFile('./dist/compact.css', eventsCss, 'utf-8');
+  minCss = ''; eventsCss = '';
 	console.log("Compact CSS Done!")
 })()

@@ -1,6 +1,6 @@
 {
   "name": "compactcss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tailwindcss inspired project. Reused the same useful tailwind css classes without a complicated setup process.",
   "keywords": [
     "Compact",

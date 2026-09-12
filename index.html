@@ -215,6 +215,13 @@
         from the CDN — no download and no build step:
       </p>
       <pre class="snippet"><code>&lt;link rel="stylesheet" href="https://compactcss.online/dist/compact.min.css"&gt;</code></pre>
+      <div class="note">
+        <code>compact.min.css</code> (~700KB) is every utility <strong>without</strong>
+        <code>hover:</code>/<code>focus:</code>/<code>active:</code> state variants. Those roughly
+        quadruple the file size, so they live in a separate <code>dist/compact.css</code> (~3MB)
+        bundle instead — swap the filename above to <code>compact.css</code> to get them. See
+        <a href="#interactivity">State variants</a> below.
+      </div>
       <p class="desc">
         Using a bundler (Webpack, Vite, Next.js, etc.)? Install it from npm and import it directly:
       </p>
@@ -251,9 +258,9 @@ function App() {
 
       <div class="note">
         Some corners of the library are still in progress — inset positioning
-        (<code>top-*</code>/<code>right-*</code>/<code>bottom-*</code>/<code>left-*</code>),
-        <code>hover:</code> state variants, the bubble and glass UI helpers — the stylesheets exist
-        as placeholders but ship no rules yet. Sections below call these out where relevant.
+        (<code>top-*</code>/<code>right-*</code>/<code>bottom-*</code>/<code>left-*</code>) and the
+        bubble and glass UI helpers — the stylesheets exist as placeholders but ship no rules yet.
+        Sections below call these out where relevant.
       </div>
     </header>
 
@@ -837,6 +844,27 @@ function App() {
     <section id="interactivity" class="doc-section">
       <p class="eyebrow">Motion &amp; Interaction</p>
       <h2>Cursor, Pointer Events &amp; Scrollbar</h2>
+
+      <h3>State variants</h3>
+      <p class="desc">
+        Prefix any utility class with <code>hover:</code>, <code>focus:</code> or <code>active:</code>
+        to apply it only while the element is in that state. Every utility in the library gets a
+        matching <code>.hover\:{class}:hover</code>, <code>.focus\:{class}:focus</code> and
+        <code>.active\:{class}:active</code> rule generated for it, so anything you can already do
+        with a plain class can also be made conditional on hover, focus or active.
+      </p>
+      <pre class="snippet"><code>&lt;button class="bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 text-white p-3 rounded-lg"&gt;
+  Hover or click me
+&lt;/button&gt;</code></pre>
+      <div class="note">
+        State variants are generated at build time but ship in a separate bundle from the default
+        install: <code>dist/compact.min.css</code> (the default CDN/npm link) does <strong>not</strong>
+        include them. Link or import <code>dist/compact.css</code> instead to get
+        <code>hover:</code>/<code>focus:</code>/<code>active:</code> classes — see
+        <a href="#introduction">Installation</a>. Either way, they aren't part of the individual
+        per-feature stylesheets in <code>css/</code>, so self-hosting by linking those files
+        directly won't include state variants.
+      </div>
 
       <h3>Cursor</h3>
       <p class="desc">One class per native cursor keyword, e.g. <code>.cursor-pointer</code>, <code>.cursor-grab</code>, <code>.cursor-not-allowed</code>, <code>.cursor-crosshair</code>, <code>.cursor-zoom-in</code> — covering the full CSS <code>cursor</code> value list.</p>
